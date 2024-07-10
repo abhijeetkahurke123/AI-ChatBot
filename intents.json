@@ -1,0 +1,2843 @@
+{
+	"intents": [{
+			"tag": "greetings",
+			"patterns": ["hello", "hey", "hi", "whats up", "how is it going?", "hei", "Hai"],
+			"responses": ["Welcome to Innodatatics AI chatbot! I'm here to answer your questions related to Data science. let's go!"]
+		},
+		{
+			"tag": "good bye",
+			"patterns": ["cya", "See you later", "Good bye", "I am leaving", "Have a good day", "bye", "cao", "see ya", "gotta go", "have to go"],
+			"responses": ["sad to see you go :(", "Talk to you later", "Goodbye!"]
+
+		},
+
+		{
+			"tag": "how",
+			"patterns": ["how are you", "howdy", "how is going", "how do you feel", "how are you doing?"],
+			"responses": ["I'm doing well, how can I help you?"]
+
+		},
+		{
+			"tag": "name",
+			"patterns": ["what is your name", "what should I call you?", "whats your name?", "who are you?", "your name?", "can you tell me your name?"],
+			"responses": ["I am an AI Chatbot. I'm capable of answering your questions related to Data science"]
+
+		},
+		{
+			"tag": "probability1",
+			"patterns": ["What is a random variable", "Define random variable", "whats do you recommend", "Definition of random variable"],
+			"responses": ["A variable, that has a value for each outcome of a procedure, that is determined by chance."]
+
+		},
+		{
+			"tag": "hours",
+			"patterns": ["when are you guys open", "what are your hours?", "hours of operation"],
+			"responses": ["24/7"]
+
+		},
+		{
+			"tag": "probability2",
+			"patterns": ["What is a Probability Distribution", "Define probability distribution", "What companies am I investing in?", "Definition of probability distribution"],
+			"responses": ["Probability distribution is a statistical function, that gives the probability of each value of random variable."]
+
+		},
+		{
+			"tag": "probability3",
+			"patterns": ["What is a Discrete variable", "Define discrete variable", "Discrete variable means", "Definition of discrete variable"],
+			"responses": ["A variable with a countable or finite number of values is discrete random variable."]
+
+		},
+		{
+			"tag": "probability4",
+			"patterns": ["What is a continuous variable", "Define continuous variable", "continuous variable means", "Definition of continuous variable"],
+			"responses": ["A variable with a countable or finite number of values is discrete random variable."]
+
+		},
+		{
+			"tag": "probability5",
+			"patterns": ["what is the range of probability", "probability values range from", "what is probability", "define probability", "probability means"],
+			"responses": ["Probability means possibility. It is a branch of mathematics that deals with the occurrence of a random event. The value is expressed from zero to one."]
+
+		},
+		{
+			"tag": "probability6",
+			"patterns": ["What is mean", "meaning of mean"],
+			"responses": ["The mean or expected value is the average or the most common value in a collection of numbers. In statistics, it is a measure of central tendency of a probability distribution along median and mode."]
+
+		},
+		{
+			"tag": "probability7",
+			"patterns": ["What is median", "Define median", "median means", "Definition of median"],
+			"responses": ["Median is a statistical measure that determines the middle value of a dataset listed in ascending order. In statistics, it is a measure of central tendency of a probability distribution along mean and mode."]
+
+		},
+		{
+			"tag": "probability8",
+			"patterns": ["What is mode", "define mode", "mode means", "Definition of mode"],
+			"responses": ["Mode is the most frequently occurring value in a dataset. Along with mean and median, mode is a statistical measure of central tendency in a dataset."]
+
+		},
+		{
+			"tag": "probability9",
+			"patterns": ["what is variance", "define variance", "variance means", "Definition of variance"],
+			"responses": ["Variance refers to the expected deviation between values in a specific data set. It measures the spread of each figure from the average value."]
+
+		},
+		{
+			"tag": "probability10",
+			"patterns": ["what is standard deviation", "define standard deviation", "standard deviation means", "Definition of standard deviation"],
+			"responses": ["In statistics, the standard deviation is a measure of the amount of variation or dispersion of a set of values. Alternately it is a square root of the variance."]
+
+		},
+		{
+			"tag": "probability11",
+			"patterns": ["How does Probability distribution work", "How probability distribution works"],
+			"responses": ["Probability distribution is the normal distribution, or bell curve, although several distributions exist that are commonly used."]
+
+		},
+		{
+			"tag": "probability12",
+			"patterns": ["What is probability density function", "Definition of probability density function", "probability density function means", "Define probability density function"],
+			"responses": ["In probability theory, a probability density function, or density of a continuous random variable, is a function whose value at any given sample in the sample space can be interpreted as providing a relative likelihood that the value of the random variable would be close to that sample."]
+
+		},
+		{
+			"tag": "probability13",
+			"patterns": ["What are some examples for Probability distribution", "examples of Probability distribution", "Probability distribution examples"],
+			"responses": ["Normal distribution, chi square distribution, binomial distribution, and Poisson distribution."]
+
+		},
+		{
+			"tag": "probability14",
+			"patterns": ["What is Normal Distribution", "Define Normal distribution", "Normal distribution means", "Definition of normal distribution"],
+			"responses": ["Normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric about the mean, showing that data near the mean are more frequent in occurrence than data far from the mean. In graph form, normal distribution will appear as a bell curve."]
+
+		},
+		{
+			"tag": "probability15",
+			"patterns": ["What is the value of mean in a normal distribution", "Mean value in Normal distribution"],
+			"responses": ["In a normal distribution the mean is zero"]
+
+		},
+		{
+			"tag": "probability16",
+			"patterns": ["value of standard deviation in a normal distribution", "Standard deviation values in normal distribution"],
+			"responses": ["In a normal distribution the standard distribution is one"]
+
+		},
+		{
+			"tag": "probability17",
+			"patterns": ["What is the value of skewness in a normal distribution", "skewness value in normal distribution"],
+			"responses": ["In a normal distribution the skewness is zero"]
+
+		},
+		{
+			"tag": "probability18",
+			"patterns": ["What is the value of kurtosis in a normal distribution", "kurtosis value in normal distribution"],
+			"responses": ["In a normal distribution the kurtosis is three"]
+
+		},
+		{
+			"tag": "probability19",
+			"patterns": ["What is the other name for normal distribution", "normal distribution also called as"],
+			"responses": ["Normal distribution often called a bell curve because it is look like bell"]
+
+		},
+		{
+			"tag": "probability20",
+			"patterns": ["What are values of mean, median and mode in normal distribution", "mean, median and mode values in normal distribution"],
+			"responses": ["In normal distribution, mean, median and mode values are equal"]
+
+		},
+		{
+			"tag": "probability21",
+			"patterns": ["What is one standard deviation in normal distribution", "What is 1 standard deviation", "1 standard deviation"],
+			"responses": ["In normal distribution, 68 percent of values are within one standard deviation of the mean"]
+
+		},
+		{
+			"tag": "probability22",
+			"patterns": ["What is two standard deviation in normal distribution", "What is 2 standard deviation", "2 standard deviation"],
+			"responses": ["In normal distribution, 95 percent of values are within two standard deviation of the mean"]
+
+		},
+		{
+			"tag": "probability23",
+			"patterns": ["What is three standard deviation in normal distribution", "What is 3 standard deviation", "3 standard deviation"],
+			"responses": ["In normal distribution, 99.7 percent of values are within three standard deviation of the mean"]
+
+		},
+		{
+			"tag": "probability24",
+			"patterns": ["What is Z score", "Define Z score", "Z score means", "Definition of Z score"],
+			"responses": ["Z score is the number of standard deviations from the mean. It is also called as Standard Score or sigma"]
+
+		},
+		{
+			"tag": "probability25",
+			"patterns": ["What is Binomial distribution", "Define Binomial distribution", "Binomial distribution means", "Definition of Binomial distribution"],
+			"responses": ["The binomial distribution is a probability distribution that summarizes the likelihood that a value will take one of two independent values under a given set of parameters or assumptions."]
+
+		},
+		{
+			"tag": "probability26",
+			"patterns": ["What is the outcome of Binomial distribution for each trial", "outcome of Binomial distribution"],
+			"responses": ["There is only one outcome for each trial in binomial distribution, that each trial has the same probability of success, and that each trial is mutually exclusive, or independent of one another."]
+
+		},
+		{
+			"tag": "probability27",
+			"patterns": ["Is binomial distribution continuous or discrete", "binomial distribution continuous or discrete"],
+			"responses": ["The binomial distribution is a discrete distribution as opposed to a continuous distribution, such as the normal distribution."]
+
+		},
+		{
+			"tag": "probability28",
+			"patterns": ["Is normal  distribution continuous or discrete", "normal  distribution continuous or discrete"],
+			"responses": ["The normal distribution is a continuous distribution"]
+
+		},
+		{
+			"tag": "probability29",
+			"patterns": ["What is the mean in binomial distribution", "mean in binomial distribution"],
+			"responses": ["The expected value, or mean, of a binomial distribution, is calculated by multiplying the number of trials by the probability of successes."]
+
+		},
+		{
+			"tag": "probability30",
+			"patterns": ["What is a Poisson distribution", "Poisson distribution"],
+			"responses": ["In statistics, a Poisson distribution is a probability distribution that is used to show how many times an event is likely to occur over a specified period."]
+
+		},
+
+		{
+			"tag": "probability31",
+			"patterns": ["Is Poisson distribution continuous or discrete"],
+			"responses": ["The Poisson distribution is a discrete function."]
+
+		},
+
+		{
+			"tag": "probability32",
+			"patterns": ["What is the area under a conditional Cumulative density function"],
+			"responses": ["The area under a conditional Cumulative density function is one."]
+
+		},
+
+		{
+			"tag": "probability33",
+			"patterns": ["When do the conditional density functions get converted into the marginally density functions"],
+			"responses": ["Conditional density functions get converted into the marginally density functions, only if random variables exhibit statistical independency."]
+
+		},
+
+		{
+			"tag": "probability34",
+			"patterns": ["What is continuous random variable"],
+			"responses": ["A variable that can assume any value between two given points is called continuous random variable."]
+
+		},
+
+		{
+			"tag": "probability35",
+			"patterns": ["What is Discrete random variable"],
+			"responses": ["If a variable can certain integer values between two given points is called discrete random variable."]
+
+		},
+
+		{
+			"tag": "probability36",
+			"patterns": ["What is the sum of all probabilities in discrete probability distribution"],
+			"responses": ["The sum of all probabilities in discrete probability distribution is one."]
+
+		},
+
+		{
+			"tag": "probability37",
+			"patterns": ["what is the expected value of a random variable"],
+			"responses": ["The expected value of a random variable is its mean."]
+
+		},
+
+		{
+			"tag": "probability38",
+			"patterns": ["What is Covariance", "Define covariance", "Covariance means", "Definition of covariance"],
+			"responses": ["Covariance is a measure of the relationship between two random variables. The metric evaluates how much to what extent the variables change together."]
+
+		},
+
+		{
+			"tag": "probability39",
+			"patterns": ["Is correlation and covariance same"],
+			"responses": ["Unlike the correlation coefficient, covariance is measured in units. The units are computed by multiplying the units of the two variables."]
+
+		},
+
+		{
+			"tag": "probability40",
+			"patterns": ["What are the types of covariance", "covariance types"],
+			"responses": ["Covariance is in two types, positive covariance and negative covariance."]
+
+		},
+
+		{
+			"tag": "probability41",
+			"patterns": ["What is positive covariance"],
+			"responses": ["Positive covariance indicates that two variables tend to move in the same direction."]
+
+		},
+
+		{
+			"tag": "probability42",
+			"patterns": ["What is negative covariance"],
+			"responses": ["Negative covariance reveals that two variables tend to move in inverse directions."]
+
+		},
+
+		{
+			"tag": "probability43",
+			"patterns": ["What is correlation", "Define correlation", "Correlation means", "Definition of correlation"],
+			"responses": ["Correlation is a statistical term describing the degree to which two variables move in coordination with one another."]
+
+		},
+
+		{
+			"tag": "probability44",
+			"patterns": ["What is the difference between correlation and covariance", "correlation vs covariance", "covariance vs correlation"],
+			"responses": ["Covariance measures the total variation of two random variables from their expected values. However, it does not indicate the strength of the relationship, nor the dependency between the variables. On the other hand, correlation measures the strength of the relationship between variables. Correlation is the scaled measure of covariance. It is dimensionless."]
+
+		},
+
+		{
+			"tag": "probability45",
+			"patterns": ["What is the covariance of two independent random variable"],
+			"responses": ["The covariance of two independent random variable is zero."]
+
+		},
+
+		{
+			"tag": "probability46",
+			"patterns": ["What is expected value", "What is expected mean", "Define expected value", "Define expected mean"],
+			"responses": ["For probability distribution the mean of the distribution known as expected mean or expected value, it is an average value of random variables. It also indicates the probability weighted average of all possible values."]
+
+		},
+
+		{
+			"tag": "probability47",
+			"patterns": ["Define range", "What is range means"],
+			"responses": ["In statistics, the range is the spread of your data from the lowest to the highest value in the distribution."]
+
+		},
+
+		{
+			"tag": "probability48",
+			"patterns": ["What is the first moment business decision", "measures of central tendency"],
+			"responses": ["Mean, median and mode are the first moment business decision. it is also called as measures of central tendency."]
+
+		},
+
+		{
+			"tag": "probability49",
+			"patterns": ["What is the second moment business decision", "measures of dispersion"],
+			"responses": ["Variance, standard deviation and range are the second moment business decision. It is also called as measures of dispersion."]
+
+		},
+
+		{
+			"tag": "probability50",
+			"patterns": ["What is population", "Define population", "Population means", "Definition of population"],
+			"responses": ["In statistics, a population is a set of similar items or events which is of interest for some question or experiment."]
+
+		},
+
+		{
+			"tag": "probability51",
+			"patterns": ["What is a sample", "Define sample", "Sample means", "Definition of sample"],
+			"responses": ["A sample is a set of individuals or objects collected or selected from a statistical population by a defined procedure."]
+
+		},
+
+		{
+			"tag": "probability52",
+			"patterns": ["What is an event", "Define event", "Event in stats", "Event means"],
+			"responses": ["In probability theory, an event is a set of outcomes of an experiment to which a probability is assigned."]
+
+		},
+
+		{
+			"tag": "probability53",
+			"patterns": ["What is skewness", "Define skewness", "Skewness means", "Definition of skewness"],
+			"responses": ["In statistics, skewness (third moment business decision) is a degree of asymmetry observed in a probability distribution that deviates from the symmetrical normal distribution in a given set of data."]
+
+		},
+
+		{
+			"tag": "probability54",
+			"patterns": ["What is kurtosis", "Define kurtosis", "kurtosis means", "Definition of kurtosis"],
+			"responses": ["Kurtosis (fourth moment business decission) is a statistical measure, whether the data is heavy tailed or light tailed in a normal distribution."]
+
+		},
+
+		{
+			"tag": "probability55",
+			"patterns": ["What is distribution", "Define distribution", "Distribution means", "Definition of distribution"],
+			"responses": ["A distribution in statistics is a function that shows the possible values for a variable and how often they occur."]
+
+		},
+
+		{
+			"tag": "probability56",
+			"patterns": ["What is the third moment business decision"],
+			"responses": ["Skewness is the third moment business decision."]
+
+		},
+
+		{
+			"tag": "probability57",
+			"patterns": ["What is the fourth moment business decision"],
+			"responses": ["Kurtosis is the fourth moment business decision."]
+
+		},
+
+		{
+			"tag": "probability58",
+			"patterns": ["What is central limit theorem", "central limit theorem"],
+			"responses": ["In probability theory, the central limit theorem states that the distribution of a sample variable approximates a normal distribution as the sample size becomes larger, assuming that all samples are identical in size, and regardless of the populations actual distribution shape."]
+
+		},
+
+		{
+			"tag": "probability59",
+			"patterns": ["What is confidence interval", "confidence interval"],
+			"responses": ["A confidence interval, in statistics, refers to the probability that a population parameter will fall between a set of values for a certain proportion of times. Confidence intervals measure the degree of uncertainty or certainty in a sampling method."]
+
+		},
+
+		{
+			"tag": "probability60",
+			"patterns": ["What is t distribution", "t distribution"],
+			"responses": ["The t distribution describes the standardized distances of sample means to the population mean when the population standard deviation is not known, and the observations come from a normally distributed population."]
+
+		},
+
+		{
+			"tag": "probability61",
+			"patterns": ["What is the difference between the t and z distributions", "z distributions vs t distribution", "t distributions vs z distribution"],
+			"responses": ["The standard normal or z distribution assumes that you know the population standard deviation. The t distribution is based on the sample standard deviation."]
+
+		},
+
+		{
+			"tag": "probability62",
+			"patterns": ["What is p value", "Define p value", "p value means", "Definition of p value"],
+			"responses": ["A p value is used in hypothesis testing to help you support or reject the null hypothesis. The p value is the evidence against a null hypothesis. The smaller the p value, the stronger the evidence that you should reject the null hypothesis."]
+
+		},
+
+		{
+			"tag": "probability63",
+			"patterns": ["What is the range of p value"],
+			"responses": ["Mathematical probabilities like p values range from 0 or no chance to 1 or absolute certainty. So 0.5 means a 50 per cent chance and 0.05 means a 5 per cent chance. In most sciences, results yielding a p value of 0.05 are considered on the borderline of statistical significance."]
+
+		},
+
+		{
+			"tag": "probability64",
+			"patterns": ["What is the difference between the Bernoulli and binomial distribution"],
+			"responses": ["The Bernoulli distribution models the event of conducting one trial of an experiment with only two outcomes, while the binomial distribution models conducting n many trials."]
+
+		},
+
+		{
+			"tag": "probability65",
+			"patterns": ["What are the examples of the discrete probability distribution"],
+			"responses": ["Examples of the Discrete probability distribution are Bernoulli distribution, Binomial distribution and Poisson distribution etc."]
+
+		},
+
+		{
+			"tag": "probability66",
+			"patterns": ["What are the examples of the continuous probability distribution"],
+			"responses": ["Examples of the continuous probability distribution are Uniform distribution, Normal distribution, Exponential distribution and t distribution etc."]
+
+		},
+
+		{
+			"tag": "probability67",
+			"patterns": ["What is Exponential distribution"],
+			"responses": ["In probability theory and statistics, the exponential distribution is the probability distribution of the time between events in a Poisson point process, i.e., a process in which events occur continuously and independently at a constant average rate."]
+
+		},
+
+		{
+			"tag": "probability68",
+			"patterns": ["Is Exponential distribution is uni variate or bi variate"],
+			"responses": ["Exponential distribution is uni variate."]
+
+		},
+
+		{
+			"tag": "probability69",
+			"patterns": ["In kurtosis, the frequency curve which looks more peaked than normal curve of bell shaped distribution is classified as"],
+			"responses": ["In kurtosis, the frequency curve which looks more peaked than normal curve of bell shaped distribution is classified as platykurtic."]
+
+		},
+
+		{
+			"tag": "probability70",
+			"patterns": ["what are mutually exclusive events"],
+			"responses": ["Events which can never occur together In probability theories then it is classified as mutually exclusive events."]
+
+		},
+
+		{
+			"tag": "probability71",
+			"patterns": ["What is numerical space"],
+			"responses": ["All possible outcomes for a random experiment are called numerical space."]
+
+		},
+
+		{
+			"tag": "probability72",
+			"patterns": ["What is the marginal probability of dependent events and independent events"],
+			"responses": ["The marginal probability of dependent events and independent events are same."]
+
+		},
+
+		{
+			"tag": "probability73",
+			"patterns": ["What is the probability of an impossible event"],
+			"responses": ["probability of an impossible event is zero."]
+
+		},
+
+		{
+			"tag": "probability74",
+			"patterns": ["Binomial Distribution For larger values of n"],
+			"responses": ["Binomial Distribution For larger values of n tends to Poisson Distribution."]
+
+		},
+
+		{
+			"tag": "probability75",
+			"patterns": ["what is the mean and variance for the standard normal distribution is zero and one respectively"],
+			"responses": ["The mean and variance for the standard normal distribution is zero and one respectively."]
+
+		},
+
+		{
+			"tag": "probability76",
+			"patterns": ["What is the assumption made for performing the hypothesis test with T distribution"],
+			"responses": ["For testing of Hypothesis with T distribution it is assumed that the distribution follows a normal distribution. The region is identified and hence based on the normal variate Hypothesis is accepted or rejected."]
+
+		},
+
+		{
+			"tag": "probability77",
+			"patterns": ["What if a Null Hypothesis is accepted then the value of Test statistic lies in"],
+			"responses": ["If a Null Hypothesis is accepted then the value of Test statistic lies in the Acceptance region. For a rejected Null Hypothesis, the value lies in the Rejection region."]
+
+		},
+
+		{
+			"tag": "probability78",
+			"patterns": ["What is the range of Level of Significance lies between"],
+			"responses": ["The Level of Significance lies between 0 and 1. The 0 signifies the test is least significant and 1 signifies the test is most significant."]
+
+		},
+
+		{
+			"tag": "probability79",
+			"patterns": ["The effect of rejection of a hypothesis with decrease in sample size"],
+			"responses": ["If n decreases then the value of Level of Significance of each sample alpha decreases. Hence subtraction of 1 with alpha increases which are called the rejection of test sample increases."]
+
+		},
+
+		{
+			"tag": "probability80",
+			"patterns": ["The independent values in a set of values of a test is called as"],
+			"responses": ["In a test, the number of individual samples is called as Degrees of Freedom. If a sample has n values then the Degrees of Freedom are n subtract with one."]
+
+		},
+
+		{
+			"tag": "probability81",
+			"patterns": ["What is the Mean of a constant a"],
+			"responses": ["Mean of a constant a is a."]
+
+		},
+
+		{
+			"tag": "probability82",
+			"patterns": ["What is the variance of a constant zero"],
+			"responses": ["variance of a constant a is a."]
+
+		},
+
+		{
+			"tag": "probability83",
+			"patterns": ["In a Binomial Distribution, what if n is the number of trials and p is the probability of success, then the mean value is given by"],
+			"responses": ["In a Binomial Distribution, if n is the number of trials and p is the probability of success, then the mean value is given by np."]
+
+		},
+
+		{
+			"tag": "probability84",
+			"patterns": ["In a Binomial Distribution, what if p, q and n are probability of success, failure and number of trials respectively then variance is given by"],
+			"responses": ["In a Binomial Distribution, if p, q and n are probability of success, failure and number of trials respectively then variance is given by npq."]
+
+		},
+
+		{
+			"tag": "probability85",
+			"patterns": ["It is suitable to use Binomial Distribution only for"],
+			"responses": ["Binomial Distribution suitable only for Small values of n."]
+
+		},
+
+		{
+			"tag": "probability86",
+			"patterns": ["For larger values of n, Binomial Distribution"],
+			"responses": ["For larger values of n, Binomial Distribution tends to Poisson Distribution."]
+
+		},
+
+		{
+			"tag": "probability87",
+			"patterns": ["If m is the mean of a Poisson Distribution, then variance is given by"],
+			"responses": ["If m is the mean of a Poisson Distribution, then variance is given by m."]
+
+		},
+
+		{
+			"tag": "probability88",
+			"patterns": ["In a Poisson distribution, does the mean equals to standard deviation"],
+			"responses": ["In a Poisson distribution, the mean and standard deviation are not equal."]
+
+		},
+
+		{
+			"tag": "probability89",
+			"patterns": ["What is the shape of the Normal Curve"],
+			"responses": ["Due to the nature of the Probability Mass function, a bell shaped curve is obtained for Normal curve."]
+
+		},
+
+		{
+			"tag": "probability90",
+			"patterns": ["What does Normal Distribution is symmetric about"],
+			"responses": ["Due to the very nature of p.m.f of Normal Distribution, the graph appears such that it is symmetric about its mean."]
+
+		},
+
+		{
+			"tag": "probability91",
+			"patterns": ["For a standard normal variate, what is the value of mean"],
+			"responses": ["For a normal variate, if its mean is 0 and standard deviation is 1, then its called as Standard Normal Variate."]
+
+		},
+
+		{
+			"tag": "probability92",
+			"patterns": ["What is the area under a standard normal curve"],
+			"responses": ["For any probability distribution, the sum of all probabilities is 1. Area under normal curve refers to sum of all probabilities."]
+
+		},
+
+		{
+			"tag": "probability93",
+			"patterns": ["The standard normal curve is symmetric about the value"],
+			"responses": ["Normal curve is always symmetric about mean, for standard normal curve or variate mean is 0."]
+
+		},
+
+		{
+			"tag": "probability94",
+			"patterns": ["For a standard normal variate, what is the value of Standard Deviation"],
+			"responses": ["If the mean and standard deviation of a normal variate are 0 and 1 respectively, it is called as standard normal variate."]
+
+		},
+
+		{
+			"tag": "probability95",
+			"patterns": ["What is the other name for normal distribution"],
+			"responses": ["Normal distribution aslo called as Laplacian Distribution, named after the one who proposed it."]
+
+		},
+
+		{
+			"tag": "probability96",
+			"patterns": ["For a normal distribution does its mean, median, mode are equal"],
+			"responses": ["It has a theoretical evidence that requires some serious background on several topics For more details you can refer to any book or website that speaks on the same."]
+
+		},
+
+		{
+			"tag": "probability97",
+			"patterns": ["In Normal distribution, the highest value of ordinate occurs at"],
+			"responses": ["In Normal distribution, the highest value of ordinate occurs at Mean. This is due the behaviour of the pdf of Normal distribution."]
+
+		},
+
+		{
+			"tag": "probability98",
+			"patterns": ["what is the shape of the normal curve depends on"],
+			"responses": ["The shape of the normal curve depends on its Standard deviation. This can be seen in the pdf of normal distribution where standard deviation is a variable."]
+
+		},
+
+		{
+			"tag": "probability99",
+			"patterns": ["What is the value of mode in Standard normal distribution"],
+			"responses": ["In a standard normal distribution, the value of mean is 0 and in normal distribution mean and mode coincide."]
+
+		},
+
+		{
+			"tag": "probability100",
+			"patterns": ["What is the value of median in Standard normal distribution"],
+			"responses": ["In a standard normal distribution the value of mean is o and in normal distribution mean, median and mode coincide."]
+
+		},
+
+		{
+			"tag": "probability101",
+			"patterns": ["What is significance value", "what is alpha value", "alpha value", "significance level", "define significance level"],
+			"responses": ["In statistical tests, statistical significance is determined by citing an alpha level, or the probability of rejecting the null hypothesis when the null hypothesis is true. For this example, alpha, or significance level, is set to 0.05 (5%)."]
+
+		},
+
+
+		{
+			"tag": "Evaluation Metrics",
+			"patterns": ["What are evaluation metrics", "Define evaluationn metrics", "evaluation metrics"],
+			"responses": ["An evaluation metric quantifies the performance of a predictive model. This typically involves training a model on a dataset, using the model to make predictions on a holdout dataset not used during training, then comparing the predictions to the expected values in the holdout dataset"]
+		},
+		{
+			"tag": "Evaluation Metrics1",
+			"patterns": ["How many evaluation metrics are there", "Number of evaluation metrics"],
+			"responses": ["There 11 metrics, used to check the model performance"]
+
+		},
+		{
+			"tag": "Evaluation Metrics2",
+			"patterns": ["Use of evalution metrics", "What are metrics used for?"],
+			"responses": ["Metrics are measures of quantitative assessment commonly used for comparing, and tracking performance or production. Metrics can be used in a variety of scenarios. Metrics are heavily relied on in the financial analysis of companies by both internal managers and external stakeholders."]
+
+		},
+		{
+			"tag": "Evaluation Metrics3",
+			"patterns": ["How to develop evaluation metrics", "Process to develop evaluation metrics", "Method to develop evaluation metrics"],
+			"responses": ["5 methods to create measurable and actionable KPIs,Establish Goals & Objectives, Establish Critical Success Factors CSF from the Goals and Objectives, Establish Key Performance Indicator KPI from CSF, Collect Measures and Calculate Metrics from Measures."]
+
+		},
+		{
+			"tag": "Evaluation Metrics4",
+			"patterns": ["What is an evaluation table", "Define evaluation table"],
+			"responses": ["The evaluation table stores the results of expression evaluation. Evaluation table rows are indexed by a combination of arControlIndex , subexpression identifier, and monitored MIB instance identifier.A copy of the subexpression that the row represents, for reference and debugging."]
+
+		},
+		{
+			"tag": "Evaluation Metrics5",
+			"patterns": ["What is confusion matrix", "Describe confusion matrix", "What do you mean by confusion matrix", "Define confusion matrix", "Explain confusion matrix"],
+			"responses": ["A confusion matrix is an N X N matrix, where N is the number of classes being predicted. For the problem in hand, we have N=2, and hence we get a 2 X 2 matrix."]
+
+		},
+		{
+			"tag": "Evaluation Metrics6",
+			"patterns": ["What is FI score", "How do you describe FI score", "What do you mean by FI score", "Define FI score", "Explain the FI score", "Describe the FI score", "What is FI score stand for in machine learning"],
+			"responses": ["The Fscore, also called the F1score, is a measure of a model accuracy on a dataset. The Fscore is commonly used for evaluating information retrieval systems such as search engines, and also for many kinds of machine learning models, in particular in natural language processing."]
+
+		},
+		{
+			"tag": "Evaluation Metrics7",
+			"patterns": ["What is Kolomogorov Smirnov chart", "What do you mean by Kolomogorov Smirnov chart", "Define Kolomogorov Smirnov chart", "Explain Kolomogorov Smirnov chart", "Describe Kolomogorov Smirnov chart", "What is Kolomogorov Smirnov chart stand for in machine learning"],
+			"responses": ["K-S or Kolmogorov-Smirnov chart measures performance of classification models. More accurately, K-S is a measure of the degree of separation between the positive and negative distributions. The K-S is 100, if the scores partition the population into two separate groups in which one group contains all the positives and the other all the negatives.On the other hand, If the model cannot differentiate between positives and negatives, then it is as if the model selects cases randomly from the population. The K-S would be 0. In most classification models the K-S will fall between 0 and 100, and that the higher the value the better the model is at separating the positive from negative cases."]
+
+		},
+		{
+			"tag": "Evaluation Metrics8",
+			"patterns": ["What is Area Under the ROC curve ", "How do you describe Area Under the ROC curve ", "What do you mean by Area Under the ROC curve ", "define Area Under the ROC curve ", "Explain Area Under the ROC curve ", "describe Area Under the ROC curve ", "What is Area Under the ROC curve  stand for in machine learning"],
+			"responses": ["This is again one of the popular metrics used in the industry.  The biggest advantage of using ROC curve is that it is independent of the change in proportion of responders. This statement will get clearer in the following sections.Let’s first try to understand what is ROC (Receiver operating characteristic) curve. If we look at the confusion matrix below, we observe that for a probabilistic model, we get different value for each metric.For a model which gives class as output, will be represented as a single point in ROC plot."]
+
+		},
+		{
+			"tag": "Evaluation Metrics9",
+			"patterns": ["What are Log Loss", "How do you describe Log Loss", "What do you mean by Log Loss", "Define Log Loss", "Explain Log Loss", "Describe Log Loss"],
+			"responses": ["AUC ROC considers the predicted probabilities for determining our model’s performance. However, there is an issue with AUC ROC, it only takes into account the order of probabilities and hence it does not take into account the model’s capability to predict higher probability for samples more likely to be positive. In that case, we could us the log loss which is nothing but negative average of the log of corrected predicted probabilities for each instance."]
+
+		},
+		{
+			"tag": "Evaluation Metrics10",
+			"patterns": ["What is a Gini Coefficient", "How do you describe Gini Coefficient", "What do you mean by Gini Coefficient", "Define Gini Coefficient", "Explain Gini Coefficient", "Describe Gini Coefficient"],
+			"responses": ["Gini coefficient is sometimes used in classification problems. Gini coefficient can be straigh away derived from the AUC ROC number. Gini is nothing but ratio between area between the ROC curve and the diagnol line & the area of the above triangle."]
+
+		},
+		{
+			"tag": "Evaluation Metrics11",
+			"patterns": ["What is Concordant – Discordant ratio", "How do you describe Concordant – Discordant ratio", "What do you mean by Concordant – Discordant ratio", "Define Concordant – Discordant ratio", "Explain Concordant – Discordant ratio", "Describe Concordant – Discordant ratio"],
+			"responses": ["This is one of the most important metric for any classification predictions problem. To understand this let’s assume we have 3 students who have some likelihood to pass this year. Following are our predictions"]
+
+		},
+		{
+			"tag": "Evaluation Metrics12",
+			"patterns": ["What is Root Mean Squared Error", "How do you describe Root Mean Squared Error", "What do you mean by Root Mean Squared Error", "Define Root Mean Squared Error", "Explain the Root Mean Squared Error", "Describe the Root Mean Squared Error", "What is Root Mean Squared Error stand for in machine learning"],
+			"responses": ["RMSE is the most popular evaluation metric used in regression problems. It follows an assumption that error are unbiased and follow a normal distribution.The power of ‘square root’  empowers this metric to show large number deviations.The ‘squared’ nature of this metric helps to deliver more robust results which prevents cancelling the positive and negative error values. In other words, this metric aptly displays the plausible magnitude of error term."]
+
+		},
+		{
+			"tag": "Evaluation Metrics13",
+			"patterns": ["What is Root Mean Squared Logarithmic Error", "How do you describe Root Mean Squared Logarithmic Error", "What do you mean by Root Mean Squared Logarithmic Error", "Define Root Mean Squared Logarithmic Error", "Explain the Root Mean Squared Logarithmic Error", "Describe the Root Mean Squared Logarithmic Error", "What is Root Mean Squared Logarithmic Error stand for in machine learning"],
+			"responses": ["In case of Root mean squared logarithmic error, we take the log of the predictions and actual values. So basically, what changes are the variance that we are measuring. RMSLE is usually used when we don’t want to penalize huge differences in the predicted and the actual values when both predicted and true values are huge numbers."]
+
+		},
+		{
+			"tag": "Evaluation Metrics14",
+			"patterns": ["What is R-Squared", "How do you describe R-Squared", "What do you mean by R-Squared", "Define R-Squared", "Explain R-Squared", "Describe R-Squared", "What is R-Squared stand for in machine learning", "What does supervised refers to in machine learning"],
+			"responses": ["We learned that when the RMSE decreases, the model’s performance will improve. But these values alone are not intuitive.In the case of a classification problem, if the model has an accuracy of 0.8, we could gauge how good our model is against a random model, which has an accuracy of  0.5. So the random model can be treated as a benchmark. But when we talk about the RMSE metrics, we do not have a benchmark to compare."]
+
+		},
+		{
+			"tag": "Evaluation Metrics15",
+			"patterns": ["What is Adjusted R-Squared", "How do you describe Adjusted R-Squared", "What do you mean by Adjusted R-Squared", "Define Adjusted R-Squared", "Explain Adjusted R-Squared", "Describe Adjusted R-Squared", "What is Adjusted R-Squared stand for in machine learning", "What does supervised refers to in machine learning"],
+			"responses": ["This metric takes the number of features into account. When we add more features, the term in the denominator n-(k +1) decreases, so the whole expression increases.If R-Squared does not increase, that means the feature added isn’t valuable for our model. So overall we subtract a greater value from 1 and adjusted r2, in turn, would decrease."]
+
+		},
+		{
+			"tag": "Evaluation Metrics16",
+			"patterns": ["What is Chi square", "Expain Chi square", "Define Chi square"],
+			"responses": ["The Chi square goodness of fit test is a statistical hypothesis test used to determine whether a variable is likely to come from a specified distribution or not. It is often used to evaluate whether sample data is representative of the full population."]
+
+		},
+		{
+			"tag": "Evaluation Metrics17",
+			"patterns": ["What is P value", "Expain P value", "Define P value"],
+			"responses": ["P Value is a statistical test that determines the probability of extreme results of the statistical hypothesis test,taking the Null Hypothesis to be correct. It is mostly used as an alternative to rejection points that provides the smallest level of significance at which the Null Hypothesis would be rejected."]
+
+		},
+		{
+			"tag": "Evaluation Metrics18",
+			"patterns": ["What is Macro average", "Define Macro average", "Explain Macro average"],
+			"responses": ["Macro average will compute the metric independently for each class and then take the average hence treating all classes equally, whereas a micro average will aggregate the contributions of all classes to compute the average metric."]
+
+		},
+		{
+			"tag": "Evaluation Metrics19",
+			"patterns": ["What is Micro averaged", "Describe Micro averaged", "What do you mean by Micro averaged", "Define Micro averaged", "Explain Micro averaged"],
+			"responses": ["Micro averaged, all samples equally contribute to the final averaged metric. Macro averaged all classes equally contribute to the final averaged metric. Weighted averaged: each classess contribution to the average is weighted by its size."]
+
+		},
+		{
+			"tag": "Evaluation Metrics20",
+			"patterns": ["What is Mean Average Precision", "How do you describe Mean Average Precision", "What do you mean by Mean Average Precision", "Define Mean Average Precision", "Explain the Mean Average Precision", "Describe the Mean Average Precision", "What is Mean Average Precisionstand in machine learning"],
+			"responses": ["Mean Average Precision at K is typically the metric of choice for evaluating the performance of a recommender systems. However, the use of additional diagnostic metrics and visualizations can offer deeper and sometimes surprising insights into a model performance."]
+
+		},
+		{
+			"tag": "Evaluation Metrics21",
+			"patterns": ["What is mcc ", "What do you mean by mcc ", "Define mcc ", "Explain mcc ", "Describe mcc"],
+			"responses": ["Compute the Matthews correlation coefficient MCC. The Matthews correlation coefficient is used in machine learning as a measure of the quality of binary and multiclass classifications."]
+
+		},
+		{
+			"tag": "Evaluation Metrics22",
+			"patterns": ["What is evaluation metrics in machine learning", "What do you mean by evaluation metrics in machine learning", "define evaluation metrics in machine learning", "Explain evaluation metrics in machine learning", "describe evaluation metrics in machine learning"],
+			"responses": ["Evaluation metrics are used to measure the quality of the statistical or machine learning model. Evaluating machine learning models or algorithms is essential for any project. There are many different types of evaluation metrics available to test a model."]
+
+		},
+		{
+			"tag": "Evaluation Metrics23",
+			"patterns": ["What are metrics of evaluation in regression", "How do you describe metrics of evaluation in regression", "What do you mean by metrics of evaluation in regression"],
+			"responses": ["There are 3 main metrics for model evaluation in regression, R SquareAdjusted R Square, Mean Square Error MSE or Root Mean Square Error RMSE and Mean Absolute Error MAE"]
+
+		},
+		{
+			"tag": "Evaluation Metrics24",
+			"patterns": ["What are evaluation metrics for classification", "How do you describe evaluation metrics for classification", "What do you mean by evaluation metrics for classification"],
+			"responses": ["There are many ways for measuring classification performance. Accuracy, confusion matrix, logloss, and AUC ROC are some of the most popular metrics. Precision recall is a widely used metrics for classification problems."]
+
+		},
+		{
+			"tag": "Evaluation Metrics25",
+			"patterns": ["What are evaluation metrics for clustering", "How do you describe evaluation metrics for clustering", "What do you mean by evaluation metrics for clustering", "Define evaluation metrics for clustering"],
+			"responses": ["The two most popular evaluation metrics for clustering algorithms are the Silhouette coefficient and Dunns Index."]
+
+		},
+		{
+			"tag": "Evaluation Metrics26",
+			"patterns": ["What are evaluation metrics for NLP", "How do you describe evaluation metrics for NLP", "What do you mean by evaluation metrics for NLP", "Define evaluation metrics for NLP"],
+			"responses": ["We can evaluate the performance of the NLP model by four measures, Cosine Similarity, Jaccard Similarity, Perplexity and Word Error Rate."]
+
+		},
+		{
+			"tag": "Evaluation Metrics27",
+			"patterns": ["What is r2 metric", "Define r2 metric", "Explain r2 metric"],
+			"responses": ["R2 is defined as the proportion of the variance in the dependent variable that is predictable from the independent variable.Another definition is total variance explained by model divide by total variance."]
+
+		},
+		{
+			"tag": "Evaluation Metrics28",
+			"patterns": ["What is What is a good R-squared value", "How do you describe What is a good R-squared value", "What do you mean by What is a good R-squared value", "Define What is a good R-squared value", "Explain What is a good R-squared value", "Describe What is a good R-squared value", "What is What is a good R-squared value stand for in machine learning", "What does supervised refers to in machine learning"],
+			"responses": ["In other fields, the standards for a good R Squared reading can be much higher, such as 0.9 or above. In finance, an R Squared above 0.7 would generally be seen as showing a high level of correlation, whereas a measure below 0.4 would show a low correlation."]
+
+		},
+		{
+			"tag": "Evaluation Metrics29",
+			"patterns": ["What is the equivalent of R 2 in logistic regression", "Define equivalent of R 2 in logistic regression"],
+			"responses": ["When analyzing data with a logistic regression, an equivalent statistic to R-squared does not exist. The model estimates from a logistic regression are maximum likelihood estimates arrived at through an iterative process."]
+
+		},
+		{
+			"tag": "Evaluation Metrics30",
+			"patterns": ["What is Z value in logistic regression", "Define Z value in logistic regression", "Explain Z value in logistic regression"],
+			"responses": ["The z value is the regression coefficient divided by standard error. If the z value is too big in magnitude, it indicates that the corresponding true regression coefficient is not 0 and the corresponding X variable matters."]
+
+		},
+		{
+			"tag": "Evaluation Metrics31",
+			"patterns": ["What is weighted F1 score", "Define weighted F1 score"],
+			"responses": ["The F1 Scores are calculated for each label and then their average is weighted by support, which is the number of true instances for each label. It can result in an Fscore that is not between precision and recall. Its intended to be used for emphasizing the importance of some samples w.r.t. the others."]
+
+		},
+		{
+			"tag": "Evaluation Metrics32",
+			"patterns": ["What is good model score", "Describe good model score", "What do you mean by good model score", "Define good model score", "Explain good model score"],
+			"responses": ["If you are working on a classification problem, the best score is 100percent accuracy. If you are working on a regression problem, the best score is 0.0 error."]
+
+		},
+		{
+			"tag": "Evaluation Metrics33",
+			"patterns": ["What is difference between AUC and accuracy", "How do you describe difference between AUC and accuracy", "Explain the difference between AUC and accuracy"],
+			"responses": ["The first big difference is that you calculate accuracy on the predicted classes while you calculate ROC AUC on predicted scores. That means you will have to find the optimal threshold for your problem. Moreover, accuracy looks at fractions of correctly assigned positive and negative classes."]
+
+		},
+		{
+			"tag": "Evaluation Metrics34",
+			"patterns": ["What is a large F statistic", "What do you mean by large F statistic", "Define large F statistic", "Explain large F statistic", "Describe large F statistic", "What is large F statistic stand for in machine learning"],
+			"responses": ["The F ratio is the ratio of two mean square values. If the null hypothesis is true, you expect F to have a value close to 1.0 most of the time. A large F ratio means that the variation among group means is more than you'd expect to see by chance."]
+
+		},
+		{
+			"tag": "Evaluation Metrics35",
+			"patterns": ["How can I improve my ROC AUC score", "How to improve ROC AUC score", "Method to improve ROC AUC score"],
+			"responses": ["One possible alternative depending on your classification technique is to use class weights instead using sampling techniques. Adding a greater penalty to misclassifying your under represented class can reduce bias without over training on the under represented class samples."]
+
+		},
+		{
+			"tag": "Evaluation Metrics36",
+			"patterns": ["Why is ROC better than accuracy"],
+			"responses": ["The first big difference is that you calculate accuracy on the predicted classes while you calculate ROC AUC on predicted scores. That means you will have to find the optimal threshold for your problem. Moreover, accuracy looks at fractions of correctly assigned positive and negative classes."]
+
+		},
+		{
+			"tag": "Evaluation Metrics37",
+			"patterns": ["Why ROC curve is used", "Use of ROC curve"],
+			"responses": ["ROC curves are used in clinical biochemistry to choose the most appropriate cut off for a test. As the area under an ROC curve is a measure of the usefulness of a test in general, where a greater area means a more useful test, the areas under ROC curves are used to compare the usefulness of tests."]
+
+		},
+		{
+			"tag": "Evaluation Metrics38",
+			"patterns": ["How do you choose the best threshold on a ROC curve", "How to choose the best threshold on a ROC curve"],
+			"responses": ["The X axis or independent variable is the false positive rate for the predictive test. The Y axis or dependent variable is the true positive rate for the predictive test. A perfect result would be the point 0, 1 indicating 0Percent false positives and 100Percent true positives."]
+
+		},
+		{
+			"tag": "Evaluation Metrics39",
+			"patterns": ["What is What is ML metric", "How do you describe What is ML metric", "What do you mean by What is ML metric", "Define What is ML metric", "Explain the What is ML metric", "Describe What is ML metric"],
+			"responses": ["There are various metrics which we can use to evaluate the performance of ML algorithms, classification as well as regression algorithms."]
+
+		},
+		{
+			"tag": "Evaluation Metrics40",
+			"patterns": ["What is What is a good chi squared value", "How do you describe What is a good chi squared value", "What do you mean by What is a good chi squared value", "Define What is a good chi squared value", "Explain the What is a good chi squared value", "Describe the What is a good chi squared value", "What is What is a good chi squared value stand for in machine learning"],
+			"responses": ["In general a p value of 0.05 or greater is considered critical, anything less means the deviations are significant and the hypothesis being tested must be rejected. When conducting a chi-square test, this is the number of individuals anticipated for a particular phenotypic class based upon ratios from a hypothesis."]
+
+		},
+		{
+			"tag": "Evaluation Metrics41",
+			"patterns": ["Is RMSE or r2 better", "Which is better RMSE or r2"],
+			"responses": ["The RMSE is the square root of the variance of the residuals. It indicates the absolute fit of the model to the data–how close the observed data points are to the model predicted values. Whereas Rsquared is a relative measure of fit, RMSE is an absolute measure of fit. Lower values of RMSE indicate better fit."]
+
+		}, {
+			"tag": "Evaluation Metrics42",
+			"patterns": ["How do you find the parameters in logistic regression"],
+			"responses": ["To estimate the parameters of the logistic regression model using the maximum likelihood method is to differentiate the likelihood function, then set this first derivative to 0, and continue to solve the equation to obtain the estimate of parameters."]
+
+		},
+
+
+		{
+			"tag": "tensorflow1",
+			"patterns": ["what is tensor flow", "define tensorflow", "what do you mean by tensor flow", "explain tensorflow", "tensorflow", "describe tensorflow"],
+			"responses": ["tensorflow is a free and open source software library for machine learning and artificial intelligence"]
+		},
+		{
+			"tag": "tensorflow2",
+			"patterns": ["how many types of tensors are there", "number of tensors"],
+			"responses": ["four!"]
+
+		},
+		{
+			"tag": "tensorflow3",
+			"patterns": ["what are different types of tensors", "name types of tensors", "tensors"],
+			"responses": ["variable, constant ,placeholder, sparse tensor"]
+
+		},
+		{
+			"tag": "tensorflow4",
+			"patterns": ["what is tensor board", "tensor board", "explain tensor board"],
+			"responses": ["tensorboard is a tool for providing the measurements and visualizations needed during the machine learning workflow. it enables tracking experiment metrics like loss and accuracy, visualizing the model graph, projecting embeddings to a lower dimensional space"]
+
+		},
+		{
+			"tag": "tensorflow5",
+			"patterns": ["what is the main feature of tensor flow", "name the main feature of tensor flow"],
+			"responses": ["efficiently works with mathematical expressions involving multi dimensional arrays. good support of deep neural networks and machine learning concepts. gpu or cpu computing where the same code can be executed on both architectures"]
+
+		},
+		{
+			"tag": "tensorflow6",
+			"patterns": ["what are the advantages of tensor flow", "benefits of tensorflow"],
+			"responses": ["tensorflow provides a better way of visualizing data with its graphical approach. it also allows easy debugging of nodes with the help of tensorboard. this reduces the effort of visiting the whole code and effectively resolves the neural network"]
+
+		},
+		{
+			"tag": "tensorflow7",
+			"patterns": ["list a few limitations of tensor flow", "what are disadvantages of tensorflow"],
+			"responses": ["missing symbolic loops, no supports for windows, no gpu supports for nvidia and only language support , less computation speed, no support for opencl"]
+
+		},
+		{
+			"tag": "tensorflow8",
+			"patterns": ["what are few options to load data into tensor flow", "name few options to load data into tensor flow"],
+			"responses": ["load data in memory, tensor flow data pipeline"]
+
+		},
+		{
+			"tag": "tensorflow9",
+			"patterns": ["how many  working components  are there in tensor flow architecture"],
+			"responses": ["three"]
+
+		},
+		{
+			"tag": "tensorflow10",
+			"patterns": ["what are the working components  of  tensor flow architecture", "name the working components  of  tensor flow architecture"],
+			"responses": ["data pre processing ,  model building, train and estimate the model"]
+
+		},
+
+
+		{
+			"tag": "keras2",
+			"patterns": ["what is high level api built on tensorflow", "high level language"],
+			"responses": ["keras is a high level api built on tensorflow. it is more user friendly and easy to use as compared to tensorflow"]
+
+		},
+		{
+			"tag": "keras3",
+			"patterns": ["who invented keras", "keras invented by"],
+			"responses": ["francois chollet invented keras and he is currently working as an ai researcher at google"]
+
+		},
+		{
+			"tag": "keras4",
+			"patterns": ["explain keras", "describe keras"],
+			"responses": ["keras is an open source software library that provides a python interface for artificial neural networks. keras acts as an interface for the tensorflow library"]
+
+		},
+		{
+			"tag": "keras5",
+			"patterns": ["what are advanced activation functions in keras ", "activation functions in keras"],
+			"responses": ["leaky relu, prelu are advanced activation functions in keras"]
+
+		},
+		{
+			"tag": "keras6",
+			"patterns": ["what is   required for  shape of the input  to understand the structure of the input data"],
+			"responses": ["a keras layer requires shape of the input to understand the structure of the input data, initializer to set the weight for each input and finally activators to transform the output to make it non linear."]
+
+		},
+		{
+			"tag": "keras7",
+			"patterns": ["what are the models in keras", "name some models in keras"],
+			"responses": ["keras provides two types of models, the sequential model and the functional model"]
+
+		},
+		{
+			"tag": "keras8",
+			"patterns": ["what is the relu layer", "relu layer"],
+			"responses": ["rectified linear unit layer acts as an activation layer which activates the function having a value above a specific unit. it replaces the negative values in an image with zero, defining a linear relationship of the variable with the input. it makes the input invariant to noise"]
+
+		},
+		{
+			"tag": "keras9",
+			"patterns": ["what are benefits of keras", "advantages of keras"],
+			"responses": ["larger community support, easy to test, keras supports both convolution and recurrent networks"]
+
+		},
+		{
+			"tag": "keras10",
+			"patterns": ["what is epoch in keras", "epoch", "define epoch"],
+			"responses": ["epoch is an arbitrary cutoff, generally defined as one pass over the entire dataset, used to separate training into distinct phases, which is useful for logging and periodic evaluation"]
+
+		},
+
+
+		{
+			"tag": "seaborn1",
+			"patterns": ["what is seaborn", "define seaborn", "seaborn"],
+			"responses": ["seaborn is an open source, python data visualisation library built on matplotlib that is tightly integrated with pandas data structures. the core component of seaborn is visualisation, which aids in data exploration and understanding"]
+
+		},
+		{
+			"tag": "seaborn2",
+			"patterns": ["What is the use of Seaborn", "use of seaborn", "useage of seaborn", "what purpose seaborn is used for "],
+			"responses": ["seaborn is a library in python predominantly used for making statistical graphics,advance visualization "]
+
+		},
+		{
+			"tag": "seaborn3",
+			"patterns": ["what is histograms in seaborn", "histograms in seaborn", "purpose histograms in seaborn"],
+			"responses": ["histograms represent the data distribution by forming bins along the range of the data and then drawing bars to show the number of observations that fall in each bin"]
+
+		},
+		{
+			"tag": "seaborn4",
+			"patterns": ["what are the different types of plots in seaborn", "plots in seaborn", "name plots in seaborn"],
+			"responses": ["heat map, factor plot ,density plot ,histogram, stripplot, swarmplot, barplot, countplot  etc"]
+
+		},
+		{
+			"tag": "seaborn5",
+			"patterns": ["what is hue in seaborn", "define hue", "hue"],
+			"responses": ["in seaborn, the hue parameter represents which column in the data frame, you want to use for colour encoding"]
+
+		},
+		{
+			"tag": "seaborn6",
+			"patterns": ["what is factorplot in seaborn", "factorplot", "define factorplot"],
+			"responses": ["a factor plot is simply the same plot generated for different response and factor variables and arranged on a single page"]
+
+		},
+		{
+			"tag": "seaborn7",
+			"patterns": ["what is countplot in seaborn", "countplot", "define countplot"],
+			"responses": ["a countplot is kind of like a histogram or a bar graph for some categorical area. it simply shows the number of occurrences of an item based on a certain type of category"]
+
+		},
+		{
+			"tag": "seaborn8",
+			"patterns": ["what is catplot", "catplot", "define catplot"],
+			"responses": ["catplot is a relatively new addition to seaborn that simplifies plotting that involves categorical variables.it is a wrapper for graph hbar  or graph bar or graph dot"]
+
+		},
+		{
+			"tag": "seaborn9",
+			"patterns": ["what is  distplot ", "distplot", "define distplot"],
+			"responses": ["a distplot or distribution plot, depicts the variation in the data distribution. seaborn distplot represents the overall distribution of continuous data variables"]
+
+		},
+		{
+			"tag": "seaborn10",
+			"patterns": ["what is pairplot in seaborn", "paiplot", "define pairplot"],
+			"responses": ["a pairplot plot a pairwise relationships in a dataset. the pairplot function creates a grid of axes such that each variable in data will by shared in the y axis across a single row and in the x axis across a single column"]
+
+		},
+		{
+			"tag": "pandas1",
+			"patterns": ["define the pandas", "pandas"],
+			"responses": ["pandas is defined as an open source library that provides high performance data manipulation in python. the name of pandas is derived from the word panel data, which means an econometrics from multidimensional data."]
+
+		},
+		{
+			"tag": "pandas2",
+			"patterns": ["mention the different types of data structures in pandas"],
+			"responses": ["pandas provide two data structures, which are supported by the pandas library, series, and dataframes. both of these data structures are built on top of the numpy"]
+
+		},
+		{
+			"tag": "pandas3",
+			"patterns": ["define series in pandas"],
+			"responses": ["a series is defined as a one dimensional array that is capable of storing various data types. the row labels of series are called the index. by using a series method, we can easily convert the list, tuple, and dictionary into series. a series cannot contain multiple columns"]
+
+		},
+		{
+			"tag": "pandas4",
+			"patterns": ["define dataframe in pandas"],
+			"responses": ["a dataframe is a widely used data structure of pandas and works with a two dimensional array with labeled axes dataframe is defined as a standard way to store data and has two different indexes, that is row index and column index"]
+
+		},
+		{
+			"tag": "pandas5",
+			"patterns": ["what are the significant features of the pandas library"],
+			"responses": [".memory efficient,data alignment, reshaping, merge and join, time series"]
+		},
+		{
+			"tag": "pandas6",
+			"patterns": ["who invented dataframe"],
+			"responses": ["wes mckinney."]
+		},
+
+
+		{
+			"tag": "svm1",
+			"patterns": ["what is svm", "what is support vector machine", "explain svm", "define svm"],
+			"responses": ["Support vector machines are a set of supervised learning methods used for classification, regression and outlier detection."]
+		},
+		{
+			"tag": "svm2",
+			"patterns": ["what are advantages of svm", "what are merits of svm"],
+			"responses": ["effective in high dimensional spaces and effective in cases where the number of dimensions is greater than the number of samples. uses a subset of training points in the decision function also called support vectors, so it is also memory efficient."]
+		},
+		{
+			"tag": "svm3",
+			"patterns": ["what is kernel in svm"],
+			"responses": ["A kernel is a function used in svm for helping to solve problems. They provide shortcuts to avoid complex calculations. we can go up to an infinite number of dimensions using kernels."]
+		},
+		{
+			"tag": "svm4",
+			"patterns": ["what is hinge loss", "explain hinge loss"],
+			"responses": ["hinge loss is a loss function which penalizes the svm model for inaccurate predictions."]
+		},
+		{
+			"tag": "svm5",
+			"patterns": ["what are support vectors in svm", "explain support vectors", "define support vectors"],
+			"responses": ["support vectors are those instances that are located on the margin itself. for svm, the decision boundary is entirely determined by using only the support vectors."]
+		},
+		{
+			"tag": "svm6",
+			"patterns": ["what is hard margin svm", "explain hard margin svm"],
+			"responses": ["hard margin svms work only if the data is linearly separable and these types of svms are quite sensitive to the outliers."]
+		},
+		{
+			"tag": "svm7",
+			"patterns": ["what is soft margin svm", "define soft margin svm"],
+			"responses": ["main objective of soft margin is to find a good balance between keeping the margins as large as possible and limiting the margin violation means instances that end up in the middle of margin or even on the wrong side, and this method is called soft margin svm."]
+		},
+		{
+			"tag": "svm8",
+			"patterns": ["why svm is large margin classifier"],
+			"responses": ["due its robust mathematical theory. It is widely used in medical science because of its powerful learning ability in classification. it can classify highly nonlinear data using kernel functions."]
+		},
+		{
+			"tag": "svm9",
+			"patterns": ["how many support vectors are there in svm"],
+			"responses": ["81 support vectors"]
+		},
+		{
+			"tag": "svm10",
+			"patterns": ["what is the kernel trick in svm", "what is kernel trick"],
+			"responses": ["a kernel trick is a simple method where a nonlinear data is projected onto a higher dimension space so as to make it easier to classify the data where it could be linearly divided by a plane."]
+		},
+		{
+			"tag": "svm11",
+			"patterns": ["what is the goal of svm", "define goal of svm"],
+			"responses": ["the goal of svm is to divide the datasets into classes to find a maximum marginal hyperplane"]
+		},
+		{
+			"tag": "svm12",
+			"patterns": ["what are types of svm"],
+			"responses": ["linear svm, nonlinear svm, polynomial kernel, sigmoid kernel, rbf kernel, Anova kernel."]
+		},
+		{
+			"tag": "svm13",
+			"patterns": ["what is the minimum number of support vectors in svm"],
+			"responses": ["two support vectors"]
+		},
+		{
+			"tag": "svm14",
+			"patterns": ["what is the maximum number of support vectors"],
+			"responses": [" there is no maximum bound on the number of support vectors, and the whole data set can be selected as support vectors."]
+		},
+		{
+			"tag": "svm15",
+			"patterns": ["who invented svm"],
+			"responses": ["vladimir n. vapnik"]
+		},
+		{
+			"tag": "svm16",
+			"patterns": ["what is gamma in svm", "explain gamma in svm"],
+			"responses": ["the gamma parameter defines how far the influence of a single training example reaches, with low values meaning far and high values meaning close."]
+		},
+		{
+			"tag": "svm17",
+			"patterns": ["what is gaussian kernel", "describe gaussian kernel"],
+			"responses": ["a gaussian kernel is a kernel with the shape of a gaussian curve which means normal distribution"]
+		},
+		{
+			"tag": "svm18",
+			"patterns": ["how to calculate margin in svm"],
+			"responses": ["the margin is calculated as the perpendicular distance from the line to only the closest points."]
+		},
+		{
+			"tag": "svm19",
+			"patterns": ["what is a hyperplane", "define hyperplane"],
+			"responses": ["the hyperplane is a function which is used to differentiate between features. the function which classifies the point in higher dimension is called a hyperplane."]
+		},
+		{
+			"tag": "svm20",
+			"patterns": ["what is rbf kernel"],
+			"responses": ["radial basis function kernel is a function whose value depends on the distance from the origin or from some point."]
+		},
+		{
+			"tag": "svm21",
+			"patterns": ["what is role of c hyper parameter in svm"],
+			"responses": ["the balance between keeping the margins as large as possible and limiting the margin violation is controlled by the c parameter."]
+		},
+		{
+			"tag": "svm22",
+			"patterns": ["what is polynomial kernel", "explain polynomial kernel"],
+			"responses": ["these are the kernel functions that represent the similarity of vectors in a feature space over polynomials of original variables."]
+		},
+		{
+			"tag": "svm23",
+			"patterns": ["what is a slack variable", "define slack variable"],
+			"responses": ["to meet the soft margin objective, we need to introduce a slack variable. for each sample, it measures how much any particular instance is allowed to violate the margin."]
+		},
+		{
+			"tag": "svm24",
+			"patterns": ["is svm sensitive to feature scaling"],
+			"responses": ["svms are sensitive to feature scaling as it takes input data to find the margins around hyperplanes and gets biased for the variance in high values."]
+		},
+		{
+			"tag": "svm25",
+			"patterns": ["what do you mean by generalization error in svm"],
+			"responses": ["generalization error in statistics is generally the out of sample error which is the measure of how accurately svm model can predict values for previously unseen data."]
+		},
+		{
+			"tag": "svm26",
+			"patterns": ["what are the factors that make svm effective"],
+			"responses": ["the svm effectiveness depends upon selection of kernel, kernel parameters, soft margin parameter c"]
+		},
+		{
+			"tag": "svm27",
+			"patterns": ["what is cost parameter in svm"],
+			"responses": ["the tradeoff between misclassification and simplicity of the model. for a low cost, smooth decision surface and for a higher cost, to classify more points correctly. also referred to as the cost of misclassification."]
+		},
+		{
+			"tag": "svm28",
+			"patterns": ["what are applications of svm"],
+			"responses": ["svm is a highly versatile model that can be used for practically all real world problems ranging from regression to clustering and handwriting recognitions."]
+		},
+		{
+			"tag": "svm29",
+			"patterns": ["why svm is memory efficient"],
+			"responses": ["not all the data points are required to make the decision, once the support vectors are decided only the support vectors and equation of the hyperplane is required to make the decision."]
+		},
+		{
+			"tag": "svm30",
+			"patterns": ["what is c parameter"],
+			"responses": ["it is a regularization parameter"]
+		},
+		{
+			"tag": "svm31",
+			"patterns": ["Types of svm"],
+			"responses": ["linear and nonlinear svm"]
+		},
+		{
+			"tag": "svm32",
+			"patterns": ["What is linear svm", "explain linear svm"],
+			"responses": ["linear svm is used for linearly separable data, which means if a dataset can be classified into two classes by using a single straight line, then such data is termed as linearly separable data, and classifier is used as linear svm classifier."]
+		},
+		{
+			"tag": "svm33",
+			"patterns": ["What is non linear svm", "define nonlinear svm"],
+			"responses": ["nonlinear svm is used for non linearly separated data, which means if a dataset cannot be classified by using a straight line, then such data is termed as nonlinear data and the classifier used is called nonlinear svm classifier."]
+		},
+		{
+			"tag": "svm34",
+			"patterns": ["What is optimal hyperplane", "define optimal hyperplane", "explain optimal hyperplane"],
+			"responses": ["the hyperplane with maximum margin is called the optimal hyperplane."]
+		},
+		{
+			"tag": "svm35",
+			"patterns": ["What are the classification methods that svm can handle"],
+			"responses": ["combining binary classifier, modifying binary to incorporate multiclass learning."]
+		},
+		{
+			"tag": "svm36",
+			"patterns": ["What is support vector machine algorithm", "what is svm", "what do you mean by svm"],
+			"responses": ["Support Vector Machine or SVM is one of the most popular Supervised Learning algorithms, which is used for classification as well as regression problems. However, primarily, it is used for classification problems in machine learning."]
+		},
+		{
+			"tag": "svm37",
+			"patterns": ["What happens when there is no clear Hyperplane in SVM"],
+			"responses": ["Data is rarely as clean as a hyperplane is a line that linearly separates and classifies a set of data. In order to classify a dataset, it is necessary to move away from a 2D view of the data to a 3D view. This lifting of the data points represents the mapping of data into a higher dimension. This is known as kernelling."]
+		},
+		{
+			"tag": "svm38",
+			"patterns": ["Explain about SVM Regression"],
+			"responses": ["Support Vector Regression as the name suggests is a regression algorithm that supports both linear and nonlinear regressions. This method works on the principle of the Support Vector Machine. SVR differs from SVM in the way that SVM is a classifier that is used for predicting discrete categorical labels while SVR is a regressor that is used for predicting continuous ordered variables."]
+		},
+		{
+			"tag": "svm39",
+			"patterns": [" Name some advantages of SVM", "Write down the advantages of SVM", "what are the advantages of using SVM"],
+			"responses": ["SVM can be used for linearly separable as well as non linearly separable data. SVMs provide compliance to the semi supervised learning models. Feature Mapping used to be quite a load on the computational complexity of the overall training performance of the model. However, with the help of Kernel Trick, SVM can carry out the feature mapping using a simple dot product."]
+		},
+		{
+			"tag": "svm40",
+			"patterns": ["What is the role of C in SVM"],
+			"responses": ["The C parameter tells the SVM optimization how much you want to avoid misclassifying each training example. For large values of C, the optimization will choose a smaller margin hyperplane if that hyperplane does a better job of getting all the training points classified correctly."]
+		},
+		{
+			"tag": "svm41",
+			"patterns": ["What is generalization error in terms of the SVM"],
+			"responses": ["Generalization error in statistics is generally the out of sample error which is the measure of how accurately a model can predict values for previously unseen data."]
+		},
+		{
+			"tag": "svm42",
+			"patterns": ["What is SVM classifier"],
+			"responses": ["SVM is a Machine Learning algorithm that is majorly used for classification. It is used on top of the high dimensionality of the characteristic vector."]
+		},
+		{
+			"tag": "svm43",
+			"patterns": ["What are the pros of svm classifier"],
+			"responses": ["SVM classifiers offer great accuracy and work well with high dimensional space. SVM classifiers basically use a subset of training points hence in result uses very less memory."]
+		},
+		{
+			"tag": "svm44",
+			"patterns": ["What are the cons of svm classifier"],
+			"responses": ["They have high training time hence in practice not suitable for large datasets. Another disadvantage is that SVM classifiers do not work well with overlapping classes."]
+		},
+		{
+			"tag": "svm45",
+			"patterns": ["What is confusion matrix"],
+			"responses": ["A confusion matrix is a table that is often used to describe the performance of a classification model on a set of test data for which the true values are known."]
+		},
+		{
+			"tag": "svm46",
+			"patterns": ["Explain Convex Hull in light of SVMs"],
+			"responses": ["Build a convex hull for class A and class B and draw a perpendicular on the shortest distance between the closest points of both these hulls."]
+		},
+		{
+			"tag": "svm47",
+			"patterns": ["Does SVM give any probabilistic outpu"],
+			"responses": ["SVMs do not directly provide probability estimates, these are calculated using an expensive five fold cross validation"]
+		},
+
+
+		{
+			"tag": "nlp1",
+			"patterns": ["What is natural language processing?", "Explain the natural language processing", "What do you mean by natural language processing", " Define Natural Language Processing", "nlp", "NLP", "What is nlp"],
+			"responses": ["Natural Language Processing is the ability of a computer program to understand human's language as it is spoken"]
+
+		},
+		{
+			"tag": "nlp2",
+			"patterns": ["What is text analytics", "Explain about the text analytics", "Define Text Analytics", "Text Analytics"],
+			"responses": ["Text Analytics is the method of extracting meaningful insights and answering questions from text data"]
+
+		},
+		{
+			"tag": "nlp3",
+			"patterns": ["What is natural language understanding", "Explain about natural language understanding", "what is nlu", "NLU", "nlu"],
+			"responses": ["A process by which an inanimate object (not alive machines, robots) with computer power is able to comprehend spoken language"]
+
+		},
+		{
+			"tag": "nlp4",
+			"patterns": ["What is natural language generation", "Explain natural language generation", "What is nlg", "NLG", "nlg"],
+			"responses": ["A process by which an inanimate object (not alive machines, robots) with computer power is able to manifest its thoughts in a language that humans are able to understand"]
+
+		},
+		{
+			"tag": "nlp5",
+			"patterns": ["What is tokenization", "Explain about tokenization", "Define Tokenization", "Tokenization"],
+			"responses": ["Splitting a sentence into its constituent words is known as Tokenization"]
+
+		},
+		{
+			"tag": "nlp6",
+			"patterns": ["What are the different types of tokenization", "Types of tokenization", "types of Tokenization"],
+			"responses": ["Tokenization is usually of 3 types Unigram, Bigram and Trigram"]
+
+		},
+		{
+			"tag": "nlp7",
+			"patterns": ["What is Parts of Speech Tagging", "Explain parts of speech tagging", "What is pos", "What do you mean by parts of speech tagging", "PoS"],
+			"responses": ["Parts of Speech Tagging is a process of tagging words within sentences into their respective Parts of Speech and then Labelling them"]
+
+		},
+		{
+			"tag": "nlp8",
+			"patterns": ["What is grammatical tagging", "What do you mean by grammatical tagging", "Explain about grammatical tagging", "Grammatical Tagging"],
+			"responses": ["Grammatical Tagging is a process of tagging words within sentences into their respective Parts of Speech and then Labelling them"]
+
+		},
+		{
+			"tag": "nlp9",
+			"patterns": ["What is text normalization", "What do you mean by text normalization", "Explain about text normalization", "Define Text Normalization", "Text Normalization"],
+			"responses": ["Text Normalization is the step to convert different variations of texts into a standard form"]
+
+		},
+		{
+			"tag": "nlp10",
+			"patterns": ["What is stemming", "What do you mean by stemming", "Explain about stemming", "Define Stemming", "Stemming"],
+			"responses": ["Stemming is the process of reducing a word to its word stem by cutting off the beginning or the end"]
+
+		},
+		{
+			"tag": "nlp11",
+			"patterns": ["What is lemmatization", "What do you mean by lemmatization", "Explain about lemmatization", "Define Lemmatization", "Lemmatization"],
+			"responses": ["Lemmatization is the process of reducing words into their lemma or dictionary"]
+
+		},
+		{
+			"tag": "nlp12",
+			"patterns": ["What is named entity recognition", "What do you mean by name entity recognition", "Explain about name entity recognition", "Define Named Entity Recognition", "Named Entity Recognition"],
+			"responses": ["Named Entity Recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc."]
+
+		},
+		{
+			"tag": "nlp13",
+			"patterns": ["What is sentence boundary detection", "What do you mean by sentence boundary detection", "Explain about sentence boundary detection", "Sentence Boundary Detection"],
+			"responses": ["Sentence Boundary Detection is a method of detecting where one sentence ends and where other sentence begins"]
+
+		},
+		{
+			"tag": "nlp14",
+			"patterns": ["What is word sense disambiguation", "What do you mean by word sense disambiguation", "Explain about word sense disambiguation", "Word Sense Disambiguation"],
+			"responses": ["Word Sense Disambiguation is an important method of Natural Language Processing by which the meaning of a word is determined, which is used in a particular context"]
+
+		},
+		{
+			"tag": "nlp15",
+			"patterns": ["What is tweet tokenizer", "What do you mean by tweet tokenizer", "Explain about tweet tokenizer", "Tweet Tokenizer"],
+			"responses": ["Tweet Tokenizer Specially designed for tokenizing the tweets"]
+
+		},
+		{
+			"tag": "nlp16",
+			"patterns": ["What is a regular expression tokenizer", "What do you mean by regular expression tokenizer", "Explain about regular expression tokenizer"],
+			"responses": ["Regular Expression Tokenizer developed using regular expression, sentences are split based on occurrence of a pattern"]
+
+		},
+		{
+			"tag": "nlp17",
+			"patterns": ["What are the different methods of Stemming", "Explain methods of stemming", "Stemming methods"],
+			"responses": ["There are two methods of stemming they are Regular Expression stemming and Porter Stemming"]
+
+		},
+		{
+			"tag": "nlp18",
+			"patterns": ["What is Text Similarity", "What do you mean by text similarity", "Define Text Similarity", "Text Similarity"],
+			"responses": ["Text Similarity is one of the essential techniques of Natural Language Processing which is being used to find the closeness between two chunks of text by its meaning or by surface"]
+
+		},
+		{
+			"tag": "nlp19",
+			"patterns": ["What is Cosine similarity", "Explain about cosine similarity", "Define Cosine Similarity", "Cosine Similarity"],
+			"responses": ["Cosine similarity is one of the metrics to measure the text similarity between two documents irrespective of their size in Natural language Processing"]
+
+		},
+		{
+			"tag": "nlp20",
+			"patterns": ["What is the PageRank algorithm", "What do you mean by PageRank algorithm", "Explain about PageRank algorithm", "PageRank algorithm"],
+			"responses": ["Google uses the PageRank algorithm. It is the algorithm to rank web pages in the search engine results"]
+
+		},
+		{
+			"tag": "nlp21",
+			"patterns": ["What is Web scrapping", "What do you mean by Web scrapping", "Explain about Web scrapping", "Web Scrapping"],
+			"responses": ["Web scraping refers to the extraction of data from a website or web pages"]
+
+		},
+		{
+			"tag": "nlp22",
+			"patterns": ["What is Latent Semantic Analysis", "What do you mean by Latent Semantic Analysis", "Explain about Latent Semantic Analysis", "Latent Semantic Analysis"],
+			"responses": ["Latent Semantic Analysis is a natural language processing method that analyses relationships between a set of documents and the terms contained within. It uses singular value decomposition, a mathematical technique, to scan unstructured data to find hidden relationships between terms and concepts"]
+
+		},
+		{
+			"tag": "nlp23",
+			"patterns": ["What is Word Embedding", "What do you mean by Word Embedding", "Explain about Word Embedding", "Word Embedding"],
+			"responses": ["Word embedding converts text data example words, sentences, and paragraphs into some kind of vector representation"]
+
+		},
+		{
+			"tag": "nlp24",
+			"patterns": ["What are regular expressions", "What do you mean by regular expressions", "Explain about regular expressions", "Define Regular Expression", "what is regex", "regex", "Regular Expression"],
+			"responses": ["Regular Expressions or Regex are searching patterns that used to search in textual data. It is helpful in extracting email addresses, hashtags, and phone numbers"]
+
+		},
+		{
+			"tag": "nlp25",
+			"patterns": ["What is whitespace tokenizer", "What do you mean by whitespace tokenizer", "Explain about whitespace tokenizer", "White Space tokenizer"],
+			"responses": ["Whitespace Tokenizer splits a string whenever a space, tab or newline character is present"]
+
+		},
+		{
+			"tag": "nlp26",
+			"patterns": ["What is entity extraction", "What do you mean by entity extraction", "Explain about entity extraction", "Entity Extraction"],
+			"responses": ["Entity extraction refers to the retrieval of information such as place, person, organization, etc. by the segmentation of a sentence. It helps in the recognition of an entity in a text"]
+
+		},
+		{
+			"tag": "nlp27",
+			"patterns": ["What is word Segmentation", "What do you mean by word Segmentation", "Explain about word Segmentation", "Word Segmentation"],
+			"responses": ["The segmentation of words segregates the text into small significant units"]
+
+		},
+		{
+			"tag": "nlp28",
+			"patterns": ["What is pragmatic analysis", "What do you mean by pragmatic analysis", "Explain about pragmatic analysis", "Pragmatic Analysis"],
+			"responses": ["To find useful information from a text, we implement pragmatic analysis techniques"]
+
+		},
+		{
+			"tag": "nlp29",
+			"patterns": ["What is information extraction", "What do you mean by information extraction", "Explain about information extraction", "Information Extraction"],
+			"responses": ["Information extraction in the context of Natural Language Processing refers to the technique of extracting structured information automatically from unstructured sources to ascribe meaning to it"]
+
+		},
+		{
+			"tag": "nlp30",
+			"patterns": ["What is morphological segmentation", "What do you mean by morphological segmentation", "Explain about morphological segmentation", "Morphological Segmentation"],
+			"responses": ["The purpose of morphological segmentation is to break words into their base form"]
+
+		},
+		{
+			"tag": "nlp31",
+			"patterns": ["What are the categories of natural language processing", "Explain the categories of natural language processing", "categories of natural language processing", "categories of nlp"],
+			"responses": ["Natural Language Processing is categorized into Natural Language Understanding and Natural Language Generation"]
+
+		},
+		{
+			"tag": "qna32",
+			"patterns": ["What is a unigram", "What do you mean by unigram", "Explain about unigram", "Unigram"],
+			"responses": ["A Unigram is a single word sequence of words"]
+
+		},
+		{
+			"tag": "nlp33",
+			"patterns": ["What is a bigram", "What do you mean by bigram", "Explain about bigram", "Bigram"],
+			"responses": ["A Bigram is a two word sequence of words"]
+
+		},
+		{
+			"tag": "nlp34",
+			"patterns": ["What is a trigram", "What do you mean by trigram", "Explain trigram", "Trigram"],
+			"responses": ["A Trigram is a three word sequence of words"]
+
+		},
+		{
+			"tag": "nlp35",
+			"patterns": ["What is stop word removal", "What do you mean by stop word removal", "Explain about stop word removal", "Stop word Removal"],
+			"responses": ["Stop words are the very common words like if, but, we, he, she, and they. We can usually remove these words without changing the semantics of a text and doing so often but not always improves the performance of a model"]
+
+		},
+		{
+			"tag": "nlp36",
+			"patterns": ["What is word punkt tokenizer", "What do you mean by word punkt tokenizer", "Explain about word punkt tokenizer", "word punkt tokenizer"],
+			"responses": ["Word Punkt Tokenizer splits the text into a list of characters and digits"]
+
+		},
+		{
+			"tag": "nlp37",
+			"patterns": ["What is regular expression stemmer", "What do you mean by regular expression stemmer", "Explain about regular expression stemmer", "Regular Expression stemmer"],
+			"responses": ["Regular Expression stemmer identifies morphological affixes using regular expressions. Substrings matching the regular expressions will be discarded"]
+
+		},
+		{
+			"tag": "nlp38",
+			"patterns": ["What is Porter Stemmer", "What do you mean by porter stemmer", "Explain about porter stemmer", "Porter stemmer"],
+			"responses": ["The Porter stemming algorithm or Porter Stemmer is a process for removing the commoner morphological and inflexional endings from words in English"]
+
+		},
+		{
+			"tag": "nlp39",
+			"patterns": ["What is Bag of words", "What do you mean by bag of words", "What is bow", "bag of words", "bow"],
+			"responses": ["A bag of words is a representation of text that describes the occurrence of words within a document"]
+
+		},
+		{
+			"tag": "nlp40",
+			"patterns": ["What is Jaccards similarity", "What do you mean by jaccards similarity", "Explain about jaccards similarity", "Jaccard's similarity"],
+			"responses": ["Jaccard Similarity matric used to determine the similarity between two text documents means how the two text documents close to each other in terms of their context that is how many common words exist over total words"]
+
+		},
+		{
+			"tag": "nlp41",
+			"patterns": ["What is Binary Euclidean Distance", "What do you mean by Binary Euclidean Distance", "Explain about Binary Euclidean Distance", "Binary Euclidean Distance"],
+			"responses": ["The Binary Euclidean Distance procedure computes the similarity between all pairs of items"]
+
+		},
+		{
+			"tag": "nlp42",
+			"patterns": ["What is Jaccard's Index", "What do you mean by Jaccard's Index", "Explain about Jaccard's Index", "Jaccards Index"],
+			"responses": ["Jaccard index is also known as the Jaccard Similarity and it is defined as an intersection of two documents divided by the union of those two documents that refer to the number of common words over a total number of words"]
+
+		},
+		{
+			"tag": "nlp43",
+			"patterns": ["What is simple Matching Coefficient", "What do you mean by simple Matching Coefficient", "Explain about simple Matching Coefficient", "Simple Matching Coefficient"],
+			"responses": ["The simple matching coefficient or Rand similarity coefficient is a statistic used for comparing the similarity and diversity of sample sets"]
+
+		},
+		{
+			"tag": "nlp44",
+			"patterns": ["What is Latent Dirichlet Allocation", "What do you mean by Latent Dirichlet Allocation", "Explain about Latent Dirichlet Allocation", "Latent Dirichlet Allocation", "LDA"],
+			"responses": ["The latent Dirichlet allocation is a generative statistical model that allows sets of observations to be explained by unobserved groups that explain why some parts of the data are similar"]
+
+		},
+		{
+			"tag": "nlp45",
+			"patterns": ["Which Frameworks used for Text Summarization", "Mention different Frameworks used for Text Summarization", "framework used for Text Summerization", "what framework used fr=or text summerization"],
+			"responses": ["Gensim and Natural Language Tool Kit frameworks used for Text Summarization"]
+
+		},
+		{
+			"tag": "nlp46",
+			"patterns": ["What is Topic Modelling", "What do you mean by Topic Modelling", "Explain about Topic Modelling", "Topic Modelling"],
+			"responses": ["Topic modelling is a text mining technique that provides methods to identify co occurring keywords to summarize large collections of textual information"]
+
+		},
+		{
+			"tag": "nlp47",
+			"patterns": ["What is Parsing", "What do you mean by Parsing", "Explain about Parsing", "Parsing"],
+			"responses": ["Parsing helps us to understand the structure of text data. It has the capability to analyse any sentence using the parse tree and verify the grammar of a sentence"]
+
+		},
+		{
+			"tag": "nlp48",
+			"patterns": ["Explain the Masked Language Model", "What is Masked Language Model", "What do you mean by Masked Language Model", "Masked Language Model"],
+			"responses": ["Masked language modelling is an example of autoencoding language modelling"]
+
+		},
+		{
+			"tag": "nlp49",
+			"patterns": ["What are the major applications of natural language processing", "Mention major applications of natural language processing", "major applications of nlp", "applications nlp"],
+			"responses": ["The major applications of Natural Language Processing are Machine Translation, Speech Recognition, Sentiment Analysis, Text Classification"]
+
+		},
+		{
+			"tag": "nlp50",
+			"patterns": ["What is signal processing in natural language processing", "What do you mean by signal processing in natural language processing", "Explain about signal processing in natural language processing", "signal processing in nlp", "signal processing", "what is signal processing in nlp"],
+			"responses": ["Signal processing is a method that enables software to analyse, modify, and synthesize signals. In NLP, these can be sound or text signals"]
+
+		},
+		{
+			"tag": "text mining1",
+			"patterns": ["What are the uses of tfidf", "Explain the uses of tfidf", "uses of tfidf"],
+			"responses": ["Tfidf is used to build stop words, important words, text clustering etc."]
+
+		},
+		{
+			"tag": "text mining2",
+			"patterns": ["What is inverse document frequency", "Explain about inverse document frequency", "What do you mean by inverse document frequency", "inverse document frequency"],
+			"responses": ["Inverse Document Frequency is a measure of how important a word is. If a word appears frequently in a document, then it should be important and we should give that word a high score. But if a word appears in too many other documents, it is probably not a unique identifier therefore we should assign a lower score to that word"]
+
+		},
+		{
+			"tag": "text mining3",
+			"patterns": ["What is polarity in text mining", "Explain about polarity in text mining", "What do you mean by polarity in text mining", "what is polarity"],
+			"responses": ["Polarity means checking Whether a document or sentence is positive, negative or neutral. This term is commonly used in sentiment analysis"]
+
+		},
+		{
+			"tag": "text mining4",
+			"patterns": ["What do you mean by text mining", "What is text mining", "Explain about text mining", "text mining"],
+			"responses": ["It is the process of extracting meaning full information from text data"]
+
+		},
+		{
+			"tag": "text mining5",
+			"patterns": ["What are the importance of text mining", "What are the advantages of text mining", "What are the uses of text mining", "advantages of text mining"],
+			"responses": ["It saves time and resources and performs more efficiently than human brains, it helps to track opinions over time, Text Mining helps to summarize the documents, IT helps to extract concepts from the text and present it in a simpler way"]
+
+		},
+		{
+			"tag": "text mining6",
+			"patterns": ["What do you mean by document in text mining", "What is a document in text mining"],
+			"responses": ["Each row is called a Document, even an empty row is considered as a document"]
+
+		},
+		{
+			"tag": "text mining7",
+			"patterns": ["What do you mean by corpus in text mining", "What do you mean by corpora in text mining", "What is corpus", "What is corpora"],
+			"responses": ["Collection of all documents called as Corpus or Corpora"]
+
+		},
+		{
+			"tag": "text mining8",
+			"patterns": ["What are the terminologies used in text mining", "Explain terminologies in text mining"],
+			"responses": ["Document, corpus, corpora, stemming etc."]
+
+		},
+		{
+			"tag": "text mining9",
+			"patterns": ["What is dendrogram", "Explain about dendrogram", "What do you mean by dendrogram", "dendrogram"],
+			"responses": ["A dendrogram is a type of tree diagram showing hierarchical clustering relationships between similar sets of data"]
+
+		},
+		{
+			"tag": "text mining10",
+			"patterns": ["What is positive word Cloud", "Explain about positive word cloud", "Describe about positive word cloud", "positive word cloud"],
+			"responses": ["The Word Cloud generated by the positive words"]
+
+		},
+		{
+			"tag": "text mining11",
+			"patterns": ["What is negative word Cloud", "Explain about negative word cloud", "Describe about negative word cloud", "negative word cloud"],
+			"responses": ["The Word Cloud generated by the negative words"]
+
+		},
+		{
+			"tag": "text mining12",
+			"patterns": ["What is Segmentation", "Explain about segmentation", "What do you mean by segmentation"],
+			"responses": ["Text segmentation is the process of dividing the written text into meaningful units, such as words, sentences, or topics"]
+
+		},
+		{
+			"tag": "text mining13",
+			"patterns": ["What is Emotion Mining", "Explain emotion mining", "What do you mean by emotion mining"],
+			"responses": ["Emotion Mining is the process of identifying human emotion from both facial and verbal expressions"]
+
+		},
+		{
+			"tag": "text mining14",
+			"patterns": ["What is univariate analysis", "Explain about univariate analysis", "What do you mean by univariate analysis"],
+			"responses": ["Univariate data contains only one variable. The purpose of the univariate analysis is to describe the data and find patterns that exist within it"]
+
+		},
+		{
+			"tag": "text mining15",
+			"patterns": ["What is bivariate analysis", "Explain about bivariate analysis", "What do you mean by bivariate analysis"],
+			"responses": ["Bivariate data involves two different variables. The analysis of this type of data deals with causes and relationships and the analysis is done to determine the relationship between the two variables"]
+
+		},
+		{
+			"tag": "text mining16",
+			"patterns": ["What is multivariate analysis", "Explain about multivariate analysis", "What do you mean by multivariate analysis"],
+			"responses": ["Multivariate data involves three or more variables it is categorized under multivariate. It is similar to a bivariate but contains more than one dependent variable"]
+
+		},
+		{
+			"tag": "text mining17",
+			"patterns": ["What is n gram", "Explain about n gram", "What do you mean by n gram"],
+			"responses": ["They are basically a set of cooccurring words within a given window. if an n gram of size 1 is referred to as a unigram, size 2 is a bigram and size 3 is a trigram"]
+
+		},
+		{
+			"tag": "text mining18",
+			"patterns": ["What is k means clustering", "Explain k means clustering", "What do you mean by k means clustering"],
+			"responses": ["K Means Clustering is an Unsupervised Learning algorithm, which groups the unlabelled dataset into different clusters"]
+
+		},
+		{
+			"tag": "text mining19",
+			"patterns": ["What are the various aspects of text mining", "Explain the various aspects of text mining", "aspects of text mining"],
+			"responses": ["The text and documents are gathered into a corpus and organized. and also, the corpus is analysed for structure. The result is a matrix mapping important terms to source documents. The structured data then analyses forward structures, sequences and frequency"]
+
+		},
+		{
+			"tag": "text mining20",
+			"patterns": ["What is schema design", "Explain about schema design", "What do you mean by schema design"],
+			"responses": ["It is fundamentally defining unstructured data to structured data and applying text"]
+
+		},
+		{
+			"tag": "text mining21",
+			"patterns": ["What is feature extraction", "What is feature encoding", "Explain about feature encoding"],
+			"responses": ["It is the process of converting raw text into numbers. Specifically, vectors of numbers"]
+
+		},
+		{
+			"tag": "text mining22",
+			"patterns": ["What is sparse vector", "Explain sparse vector", "What do you mean by sparse vector"],
+			"responses": ["For a very large corpus, the length of the vector might be thousands or millions of positions and each document may contain very few of the known words in the vocabulary then this results in a vector with lots of zero scores. this is called sparse vector"]
+
+		},
+		{
+			"tag": "text mining23",
+			"patterns": ["Steps involved in text mining", "What are the steps in text mining"],
+			"responses": ["Gathering unstructured data from multiple sources, detecting and removing anomalies from the data by preprocessing, converting all unstructured data into structured formats, analyses the patterns within the data via management information system and store all information into a secured database"]
+
+		},
+		{
+			"tag": "text mining24",
+			"patterns": ["What are the preprocessing steps in text mining", "Explain preprocessing steps in text mining"],
+			"responses": ["Text cleanup, tokenization, parts of speech tagging"]
+
+		},
+		{
+			"tag": "text mining25",
+			"patterns": ["What is feature selection", "Explain about feature selection", "What do you mean by feature selection"],
+			"responses": ["Feature selection is also called as variable selection. It is the process of selecting a subset of important features for use in model creation"]
+
+		},
+		{
+			"tag": "text mining26",
+			"patterns": ["What are the applications of text mining", "Explain applications of text mining", "applications of text mining"],
+			"responses": ["Some of the applications are national security, biomedical applications, customer care service, fraud detection, business intelligence, social media analysis"]
+
+		},
+		{
+			"tag": "text mining27",
+			"patterns": ["What are the techniques in text mining", "explain techniques in text mining", "techniques in text mining"],
+			"responses": ["Information extraction, information retrieval, categorization, clustering, summarization"]
+
+		},
+		{
+			"tag": "text mining28",
+			"patterns": ["What are the tasks of text mining", "Explain the tasks of task mining", "Mention various tasks of text mining"],
+			"responses": ["Entity relation modelling, sentiment analysis and document summarization"]
+
+		},
+		{
+			"tag": "text mining29",
+			"patterns": ["What at is out of vocabulary", "Explain about out of vocabulary", "What do you mean by out of vocabulary"],
+			"responses": ["Terms that are not included in the vocabulary that we created during our model training are included in this category"]
+
+		},
+		{
+			"tag": "text mining30",
+			"patterns": ["how tfidf helps you to establish"],
+			"responses": ["TFIDF helps to establish how important a particular word is in the context of the document corpus. and also, it takes into account the number of times the word appears in the document and offset by the number of documents that appear in the corpus"]
+
+		},
+		{
+			"tag": "text mining31",
+			"patterns": ["What is the use of count vectorizer in text mining", "Explain the uses of count vectorizer in text mining", "Uses of count vectorizer in text mining", "what is count vectorizer"],
+			"responses": ["In text mining, count vectorizer is used to convert text into tokens and then converting them into an integer or floating point vectors"]
+
+		},
+
+
+		{
+			"tag": "SLR1",
+			"patterns": ["what is gradient descent", "Define gradient descent", "what do you mean by gradient descent"],
+			"responses": ["gradient descent is an optimization algorithm for finding a local minimum of a differentiable function. gradient descent is simply used in machine learning to find the values of a function parameters that minimize a cost function as far as possible."]
+
+		},
+
+		{
+			"tag": "SLR2",
+			"patterns": ["define regression analysis", "what is regression analysis", "what do you mean by regression analysis"],
+			"responses": ["Regression analysis is a powerful tool that can be used to model continuous or timeseries data. Regression models can be used to interpolate values within the boundaries of observed independent variable value ranges or to extrapolate or forecast values outside of the range of independent variable values used to develop the model."]
+
+		},
+		{
+			"tag": "SLR3",
+			"patterns": ["what is linear regression", "Define linear regression", "Explain linear regression", "Describe linear regression"],
+			"responses": ["linear regression is the simplest regression algorithm that attempts to model the relationship between dependent variable and one or more independent variables by fitting a linear equation or best fit line to observed data."]
+
+		},
+		{
+			"tag": "SLR4",
+			"patterns": ["what is ols", "Define ols", "ols", "Describe ols"],
+			"responses": ["ordinary least squares regression is a common technique for estimating coefficients of linear regression equations which describe the relationship between one or more independent quantitative variables and a dependent variable."]
+
+		},
+
+		{
+			"tag": "SLR5",
+			"patterns": ["what are the assumptions of slr", "what are the assumptions of simple linear regression", "explain assumptions of linear regression"],
+			"responses": ["assumptions of slr are linearity means the relationship between x and y must be linear, independence of errors means there is not a relationship between the residuals and the y variable, in other words, y is independent of errors, normality of errors means the residuals must be approximately normally distributed, equal variances means the variance of the residuals is the same for all values of x."]
+
+		},
+		{
+			"tag": "SLR6",
+			"patterns": ["what is linearity", "what do you mean by linearity", "explain linearity", "Describe linearity"],
+			"responses": ["linearity means the relationship between x and y must be linear"]
+
+		},
+		{
+			"tag": "SLR7",
+			"patterns": ["what is independence of errors", "what does independence of errors imply"],
+			"responses": ["independence of errors means there is not a relationship between the residuals and the y variable, in other words, y is independent of errors."]
+
+		},
+		{
+			"tag": "SLR8",
+			"patterns": ["what is normality of errors", "define normality of errors", "variance means"],
+			"responses": ["normality of errors means the residuals must be approximately normally distributed"]
+
+		},
+		{
+			"tag": "SLR9",
+			"patterns": ["what do you mean by equal variances", "define equal variances", "equal variance means"],
+			"responses": ["equal variances mean the variance of the residuals is the same for all values of x."]
+
+		},
+		{
+			"tag": "SLR10",
+			"patterns": ["what is heteroscedasticity", "Explain heteroscedasticity", "describe heteroscedasticity"],
+			"responses": ["heteroscedasticity is the exact opposite of homoscedasticity. it entails that there is no equal distribution of the error terms. you use a log function to rectify this phenomenon."]
+
+		},
+		{
+			"tag": "SLR11",
+			"patterns": ["what is homoscedasticity", "Define of homoscedasticity", "Explain homoscedasticity", "Describe homoscedasicity"],
+			"responses": ["the residuals have constant variance at every level of x."]
+
+		},
+		{
+			"tag": "SLR12",
+			"patterns": ["what is quantile quantile plot", "define qq plot", "Explain qq plot", "describe qq plot"],
+			"responses": [" a qq plot, short for quantile quantile plot, is a type of plot that we can use to determine whether or not the residuals of a model follow a normal distribution. if the points on the plot roughly form a straight diagonal line, then the normality assumption is met"]
+
+		},
+		{
+			"tag": "SLR13",
+			"patterns": ["what is r square", "Define r square", "explain r square", "Describe r square"],
+			"responses": ["r square accounts for the variation of all independent variables on the dependent variable. in other words, it considers each independent variable for explaining the variation."]
+
+		},
+		{
+			"tag": "SLR14",
+			"patterns": ["what is adjusted r square", "Explain adjusted r square", "describe adjusted r square"],
+			"responses": ["adjusted r square, it accounts for the significant variables alone for indicating the percentage of variation in the model."]
+
+		},
+		{
+			"tag": "SLR15",
+			"patterns": ["what are the measures used for model validation", "define measures used for model validation"],
+			"responses": ["r square, adjusted r square, p values"]
+
+		},
+		{
+			"tag": "SLR16",
+			"patterns": ["how to improve accuracy of linear regression model"],
+			"responses": ["outlier treatment. outliers have great significance in linear regression because regression is very sensitive to outliers. therefore, it becomes critical to treat outliers with appropriate values."]
+
+		},
+		{
+			"tag": "SLR17",
+			"patterns": ["what are the disadvantages of linear regression model", "disadvantages of linear regression model", "what are demerits of slr", "mention the demerits of slr"],
+			"responses": ["it is sensitive and dependent on the outliers. it can affect the overall result. another demerit of the linear model is overfitting. underfitting is also a significant disadvantage of the linear model."]
+
+		},
+		{
+			"tag": "SLR18",
+			"patterns": ["what is regression analysis", "explain regression analysis in machine learning"],
+			"responses": ["Regression analysis is a powerful tool that can be used to model continuous or timeseries data. Regression models can be used to interpolate values within the boundaries of observed independent variable value ranges or to extrapolate or forecast values outside of the range of independent variable values used to develop the model."]
+
+		},
+		{
+			"tag": "SLR9",
+			"patterns": ["how is hypothesis testing used in linear regression"],
+			"responses": ["hypothesis testing is used in a linear regression model to test if the parameters in the linear equation is statistically significant. in other words, to check if the linear relationship that we obtained was not caused just by random chance."]
+
+		},
+		{
+			"tag": "SLR20",
+			"patterns": ["what is mae", "Explain mae", "Describe mae"],
+			"responses": ["mean absolute error mae calculates the absolute difference between actual and predicted values."]
+
+		},
+		{
+			"tag": "SLR21",
+			"patterns": ["what is mse", "Explain mse", "describe mse", "what is mean squared error"],
+			"responses": ["mean squared error mse calculates the squared difference between actual and predicted value. we can use this metric if we want to give bigger penalization to outliers and apply optimizers who require differentiation."]
+
+		},
+		{
+			"tag": "SLR22",
+			"patterns": ["what is rmse", "Explain rmse", "describe rmse", "what is root mean square error"],
+			"responses": ["root mean squared error rmse is simply the square root of mean squared error. we can use it if we want to apply gradient descent to minimize losses."]
+
+		},
+		{
+			"tag": "SLR23",
+			"patterns": ["what are evaluation metrics for regression models", "what are loss functions used in slr"],
+			"responses": ["mean absolute error, mean squared error, root mean square error"]
+
+		},
+		{
+			"tag": "SLR24",
+			"patterns": ["What is learning rate", "Define learning rate", "Explain learning rate"],
+			"responses": ["learning rate or alpha is a hyperparameter that needs to be of the optimal value for the algorithm to converge quickly with the least error. alpha controls the magnitude of the step size taken during gradient descent for converging to global minima."]
+
+		},
+		{
+			"tag": "SLR25",
+			"patterns": ["what is multicollinearity", "what do you mean by multicollinearity", "explain multicollinearity", "describe multicollinearity"],
+			"responses": ["multicollinearity occurs when multiple features in a regression model are correlated or dependent on each other to some extent. change in the value of one feature will also force change the value of features collinear to it."]
+
+		},
+		{
+			"tag": "SLR26",
+			"patterns": ["what is impact of multicollinearity"],
+			"responses": ["this can lead to overfitting as it might give unpredictable results on unseen data."]
+
+		},
+		{
+			"tag": "SLR27",
+			"patterns": ["how to measure multicollinearity"],
+			"responses": ["to measure multicollinearity, the two most common techniques are correlation matrix and variance inflation factor. the correlation matrix just contains the correlation values of each feature with every other feature. extreme values signify a high correlation."]
+
+		},
+		{
+			"tag": "SLR28",
+			"patterns": ["what are types of regularization techniques"],
+			"responses": ["lasso and ridge regularization"]
+
+		},
+		{
+			"tag": "SLR29",
+			"patterns": ["what is lasso regularization", "explain lasso regularization", "describe lasso regularization"],
+			"responses": ["lasso applies the absolute penalty, so some terms or weights of features less significantly reduce to zero."]
+
+		},
+		{
+			"tag": "SLR30",
+			"patterns": ["What is a residual", "explain residual", "describe residual"],
+			"responses": ["residual is also called error. it is the difference between the predicted y value and the actual y value."]
+
+		},
+		{
+			"tag": "SLR31",
+			"patterns": ["What is regularization", "Explain regularization", "describe regularization"],
+			"responses": ["regularization is a technique used to reduce the errors by fitting the function appropriately on the given training set and avoid overfitting. the commonly used regularization techniques are lasso regularization and ridge regularization"]
+
+		},
+		{
+			"tag": "SLR32",
+			"patterns": ["What is causation", "describe causation", "Explain causation"],
+			"responses": ["it means these two variables not only appear together, the existence of one causes the other to manifest"]
+
+		},
+		{
+			"tag": "SLR33",
+			"patterns": ["What is simple linear regression", "Explain simple linear regression", "describe simple linear regression", "What is SLR"],
+			"responses": ["simple linear regression is adopting a linear approach to modeling the relationship between a dependent variable and one or more independent variables. If there is one independent and one dependent variable, then it is called as simple linear regression."]
+
+		},
+		{
+			"tag": "SLR4",
+			"patterns": ["What is the primary difference between R square and adjusted R square"],
+			"responses": ["In linear regression, you use both these values for model validation. However, there is a clear distinction between the two. R square accounts for the variation of all independent variables on the dependent variable. In other words, it considers each independent variable for explaining the variation. In the case of Adjusted R square, it accounts for the significant variables alone for indicating the percentage of variation in the model. By significant, we refer to the P values less than 0.05."]
+
+		},
+		{
+			"tag": "SLR35",
+			"patterns": ["Explain the bias variance trade off"],
+			"responses": ["Bias refers to the difference between the values predicted by the model and the real values. It is an error. One of the goals of an ML algorithm is to have a low bias. Variance refers to the sensitivity of the model to small fluctuations in the training dataset. Another goal of an ML algorithm is to have low variance.\nFor a dataset that is not exactly linear, it is not possible to have both bias and variance low at the same time. A straight line model will have low variance but high bias, whereas a high degree polynomial will have low bias but high variance."]
+
+		},
+		{
+			"tag": "SLR36",
+			"patterns": ["What are the important assumptions of Linear regression"],
+			"responses": ["Following are the assumptions\nA linear Relationship, Firstly, there has to be a linear relationship between the dependent and the independent variables. To check this relationship, a scatter plot proves to be useful.\nRestricted Multi collinearity value , Secondly, there must no or very little multi collinearity between the independent variables in the dataset. The value needs to be restricted, which depends on the domain requirement.\nHomoscedasticity , The third is the homoscedasticity. It is one of the most important assumptions which states that the errors are equally distributed."]
+
+		},
+		{
+			"tag": "SLR37",
+			"patterns": ["What is VIF", "Explain vif", "Describe vif"],
+			"responses": ["Variance Inflation Factor   VIF   is used to check the presence of multicollinearity in a data set."]
+
+		},
+		{
+			"tag": "SLR38",
+			"patterns": ["What is VIF", "Explain vif", "Describe vif"],
+			"responses": ["Variance Inflation Factor   VIF   is used to check the presence of multicollinearity in a data set."]
+
+		},
+		{
+			"tag": "SLR39",
+			"patterns": ["what is overfitting", "Explain overfitting", "Describe overfitting", "what do you meant by overfitting"],
+			"responses": ["Overfitting occurs when the model fits more data than required, and it tries to capture each and every datapoint fed to it. Hence it starts capturing noise and inaccurate data from the dataset, which degrades the performance of the model. An overfitted model doesn't perform accurately with the test/unseen dataset and cant generalize well.\nAn overfitted model is said to have low bias and high variance."]
+
+		},
+		{
+			"tag": "SLR40",
+			"patterns": ["what is underfittng", "Explain underfittng", "Describe underfittng", "what do meant by underfittng"],
+			"responses": ["Variance Inflation Factor   VIF   is used to check the presence of multicollinearity in a data set."]
+
+		},
+		{
+			"tag": "SLR41",
+			"patterns": ["what is correlation", "Explain correlation", "Describe correlation", "what do meant by correlation"],
+			"responses": ["It measures the strength or degree of relationship between two variables. It doesnt capture causality. It is visualized by a single point."]
+
+		},
+		{
+			"tag": "SLR42",
+			"patterns": ["what is the bias and variance of simple linear regression"],
+			"responses": ["Simple Linear regression will have low bias and high variance."]
+
+		},
+
+
+
+		{
+			"tag": "smlp1",
+			"patterns": ["What is data split in machine learning", "How do you describe data split", "What do you mean by data split", "defin data split", "Explain data split", "describe data split", "what is data split stand for in machine learning"],
+			"responses": ["Data Splitting or The train-test split is a technique for evaluating the performance of a machine learning algorithm. It can be used for classification or regression problems and can be used for any supervised learning algorithm. The procedure involves taking a dataset and dividing it into two subsets."]
+
+		},
+		{
+			"tag": "smlp2",
+			"patterns": ["What is the right fit", "How do you describe the right fit", "What do you mean by the right fit", "Define right fit", "Explain right fit", "Describe the right fit", "What is right fit stand for in machine learning"],
+			"responses": ["If both training and testing errors are low and close to each other then it is called a right fit."]
+
+		},
+		{
+			"tag": "smlp3",
+			"patterns": ["What is bias", "How do you describe bias", "What do you mean by bias", "Define bias", "Explain bias", "Describe bias", "What is bias stand for in machine learning", "What is underfitting", "How do you describe underfitting", "What do you mean by underfitting", "Define underfitting", "Explain underfitting", "Describe underfitting", "What is underfitting stand for in machine learning"],
+			"responses": ["If training error itself is high irrespective then it is called underfitting or bias"]
+
+		},
+		{
+			"tag": "smlp4",
+			"patterns": ["What is testing error", "How do you describe the testing error", "What do you mean by testing error", "Define testing error", "Explain the testing error", "Describe the testing error", "What is testing error stand for in machine learning", "What is a generalization error", "How do you describe generalization error", "What do you mean by generalization error", "Define generalization error", "Explain generalization error", "Describe generalization error", "What is generalization error stand for in machine learning"],
+			"responses": ["testing error or generalization error in machine learning is a difference between the actual result from the expected result."]
+
+		},
+		{
+			"tag": "smlp5",
+			"patterns": ["What is overfitting", "How do you describe overfitting", "What do you mean by overfitting", "Define overfitting", "Explain overfitting", "Describe overfitting", "What is overfitting stand for in machine learning", ",What is variance", "How do you describe the variance", "What do you mean by variance", "Define variance", "Explain variance", "Describe variance", "What is variance stand for in machine learning"],
+			"responses": ["If training error is low and testing error is high then it is called overfitting or variance."]
+
+		},
+		{
+			"tag": "smlp6",
+			"patterns": ["What is testing in machine learning", "How do you describe testing", "What do you mean by testing", "define testing", "Explain testing", "describe testing", "What is testing stand for in machine learning"],
+			"responses": ["in machine learning, a programmer usually inputs the data and the desired behavior, and the logic is elaborated by the machine. This is especially true for deep learning. Therefore, the purpose of machine learning testing is, first of all, to ensure that this learned logic will remain consistent, no matter how many times we call the program."]
+
+		},
+		{
+			"tag": "smlp7",
+			"patterns": ["What are hyperparameters in testing", "How do you describe hyperparameters", "What do you mean by hyperparameters", "Define hyperparameters", "Explain hyperparameters", "Describe hyperparameters", "What are hyperparameters stand for in machine learning"],
+			"responses": ["In machine learning, all those parameters are called a hyperparameter, which is explicitly defined by the user to improve the learning of a model. Unlike those parameters that are obtained from the data without being explicitly programmed, these hyperparameters are classified into two forms, first is Hyperparameter optimization which involves Learning Rate, Batch Size, and number of Epochs, and the second Hyperparameter for specific models i.e. Number of Hidden Units, Number Layers, etc."]
+
+		},
+		{
+			"tag": "smlp8",
+			"patterns": ["What is a bias error", "How do you describe bias error", "What do you mean by bias error", "Define bias error", "Explain bias error", "Describe bias error", "What is bias error stand for in machine learning"],
+			"responses": ["Bias error is one type of error that occurs due to wrong assumptions about data such as assuming data is linear when in reality, data follows a complex function."]
+
+		},
+		{
+			"tag": "smlp9",
+			"patterns": ["What is variance error", "How do you describe variance error", "What do you mean by variance error", "Define variance error", "Explain variance error", "Describe variance error", "What is variance error stand for in machine learning"],
+			"responses": ["Variance error in machine learning is a type of error that occurs due to a models sensitivity to small fluctuations in the training set."]
+
+		},
+		{
+			"tag": "smlp10",
+			"patterns": ["What is an irreducible error", "How do you describe the irreducible error", "What do you mean by irreducible error", "Define irreducible error", "Explain the irreducible error", "Describe the irreducible error", "What is irreducible error stand for in machine learning"],
+			"responses": ["Irreducible errors are errors that will always be present in a machine learning model, because of unknown variables, and whose values cannot be reduced. Reducible errors are those errors whose values can be further reduced to improve a model."]
+
+		},
+		{
+			"tag": "smlp11",
+			"patterns": ["Why do we need to compare training and testing error"],
+			"responses": ["We need to compare training and testing errors to calculate the classification error."]
+
+		},
+		{
+			"tag": "smlp12",
+			"patterns": ["What is supervised learning", "How do you describe supervised learning", "What do you mean by supervised learning", "Define supervised learning", "Explain supervised learning", "Describe supervised learning", "What is supervised learning stand for in machine learning", "What does supervised refers to in machine learning"],
+			"responses": ["Supervised machine learning or supervised learning is a subcategory of artificial intelligence and machine learning. in this machines are trained using well labeled training data, and on basis of that data, machines predict the output."]
+
+		},
+		{
+			"tag": "smlp13",
+			"patterns": ["What are models in machine learning"],
+			"responses": ["A model in machine learning is the output of a machine learning algorithm run on data. A model represents what was learned by a machine learning algorithm."]
+
+		},
+		{
+			"tag": "smlp14",
+			"patterns": ["what are the 2 types of machine learning models"],
+			"responses": ["Each of the respective approaches however can be broken down into two general subtypes Supervised and Unsupervised Learning. Supervised Learning refers to the subset of Machine Learning where you generate models to predict an output variable based on historical examples of that output variable."]
+
+		},
+		{
+			"tag": "smlp15",
+			"patterns": ["How many models are there in machine learning"],
+			"responses": ["Amazon ML supports three types of ML models binary classification, multiclass classification, and regression. The type of model you should choose depends on the type of target that you want to predict."]
+
+		},
+		{
+			"tag": "smlp16",
+			"patterns": ["Why do we use models in machine learning"],
+			"responses": ["The process of modeling means training a machine learning algorithm to predict the labels from the features, tuning it for the business need, and validating it on holdout data. The output from modeling is a trained model that can be used for inference, making predictions on new data points."]
+
+		},
+		{
+			"tag": "smlp17",
+			"patterns": ["What is the difference between model and algorithm"],
+			"responses": ["Algorithms are methods or procedures taken in other to get a task done or solve a problem, while Models are well defined computations formed as a result of an algorithm that takes some value, or set of values, as input and produces some value, or set of values as output."]
+
+		},
+		{
+			"tag": "smlp18",
+			"patterns": ["What is the AI ML model"],
+			"responses": ["AI ML models are mathematical algorithms that are trained using data and human expert input to replicate a decision an expert would make when provided that same information. A model attempts to replicate a specific decision process that a team of experts would make if they could review all available data."]
+
+		},
+		{
+			"tag": "smlp19",
+			"patterns": ["Which is the best model in ML"],
+			"responses": ["Linear Regression.Logistic Regression.Linear Discriminant Analysis.Classification and Regression Trees.Naive Bayes.K Nearest Neighbors.Learning Vector Quantization.Support Vector Machines."]
+
+		},
+		{
+			"tag": "smlp20",
+			"patterns": ["How do you make an ML model"],
+			"responses": ["Define adequately our problem objective, desired output.Gather data.Choose a measure of success.Set an evaluation protocol and the different protocols available.Prepare the data dealing with missing values, with categorical values.Split correctly the data."]
+
+		},
+		{
+			"tag": "smlp21",
+			"patterns": ["What is the Core ML model"],
+			"responses": ["Core ML is the machine learning framework used across Apple products macOS, iOS, watchOS, and tvOS for performing fast prediction or inference with easy integration of pre trained machine learning models on the edge, which allows you to perform real time predictions of live images or video on the device."]
+
+		},
+		{
+			"tag": "smlp22",
+			"patterns": ["How long does it take to train an ML model"],
+			"responses": ["On average, 40 percent of companies said it takes more than a month to deploy an ML model into production, 28 percent do so in eight to 30 days, while only 14 percent could do so in seven days or less."]
+
+		},
+		{
+			"tag": "smlp23",
+			"patterns": ["How do you test data validation"],
+			"responses": ["Steps to Adopt Data Validation Testing Data transformation tests verify that the data is not corrupted after transformation. Data quality tests then handle the bad data. Database comparison tests compare the source and target database. End to end and data warehouse tests help with data validation."]
+
+		},
+		{
+			"tag": "smlp24",
+			"patterns": ["What is validation data and test data"],
+			"responses": ["That the validation dataset is predominantely used to describe the evaluation of models when tuning hyperparameters and data preparation, and the test dataset is predominately used to describe the evaluation of a final tuned model when comparing it to other final models."]
+
+		},
+		{
+			"tag": "smlp25",
+			"patterns": ["Can I use test data as validation data"],
+			"responses": ["Test data.After the model is built, testing data once again validates that it can make accurate predictions. If training and validation data include labels to monitor performance metrics of the model, the testing data should be unlabeled."]
+
+		},
+		{
+			"tag": "smlp26",
+			"patterns": ["What is data validation in software testing"],
+			"responses": ["Data Validation testing is a process that allows the user to check that the provided data, they deal with, is valid or complete. Data Validation Testing is responsible for validating data and databases successfully through any needed transformations without loss."]
+
+		},
+		{
+			"tag": "smlp27",
+			"patterns": ["Is testing validation or verification"],
+			"responses": ["It is the process to ensure whether the product that is developed is right or not. It verifies whether the developed product fulfills the requirements that we have. Verification is static testing.Differences between Verification and Validation.Verification is the static testing Validation is the dynamic testing."]
+
+		},
+		{
+			"tag": "smlp28",
+			"patterns": ["How is data validation done"],
+			"responses": ["Data validation refers to the process of ensuring the accuracy and quality of data. It is implemented by building several checks into a system or report to ensure the logical consistency of input and stored data. In automated systems, data is entered with minimal or no human supervision."]
+
+		},
+		{
+			"tag": "smlp29",
+			"patterns": ["What is data validation in ETL Testing"],
+			"responses": ["In simple terms, Data Validation is the act of validating the fact that the data that are moved as part of ETL or data migration jobs are consistent, accurate, and complete in the target production live systems to serve the business requirements."]
+
+		},
+		{
+			"tag": "smlp30",
+			"patterns": ["What are the types of data validation"],
+			"responses": ["Types of data validation include constraint validation.structured validation.data range validation.code validation, and datatype validation."]
+
+		},
+		{
+			"tag": "smlp31",
+			"patterns": ["Is validation accuracy and test accuracy the same"],
+			"responses": ["In other words, the test or testing accuracy often refers to the validation accuracy, that is, the accuracy you calculate on the data set you do not use for training, but you use during the training process for validating or testing the generalization ability of your model or for early stopping"]
+
+		},
+		{
+			"tag": "smlp32",
+			"patterns": ["What are the parameters of validation"],
+			"responses": ["Validation parameters. The classical performance parameters are accuracy, precision, linearity and application range, the limit of detection LOD, the limit of quantitation LOQ, selectivity specificity, recovery, and robustness ruggedness."]
+
+		},
+		{
+			"tag": "smlp33",
+			"patterns": ["How do you validate a test procedure"],
+			"responses": ["Accuracy. The accuracy of an analytical procedure is defined as how close the test results of the parameters are for a specific analyte compared to the true measure of these parameters.Precision.Specificity.Limit of detection.Limit of quantitation.Linearity.Range.Robustness."]
+
+		},
+		{
+			"tag": "smlp34",
+			"patterns": ["What is validation and its parameters"],
+			"responses": ["Validation parameter is used for establishing documented evidence that proves that performance characteristics of the method meet the requirements for the intended analytical applications."]
+
+		},
+		{
+			"tag": "smlp35",
+			"patterns": ["How many types of validation parameters are there"],
+			"responses": ["Method validations fall into three categories Full, Partial, and Cross Validation Full validation is needed for new methods or when major changes to an existing method affect the scope or critical components. Partial validation is performed on a previously validated method that has undergone minor modification."]
+
+		},
+		{
+			"tag": "smlp36",
+			"patterns": ["What are analytical parameters"],
+			"responses": ["Analytical parameters of a structural element are instance properties that are unique to, and apply only to one instance of a structural member in your model. You can uniquely define each element for analytical modeling."]
+
+		},
+		{
+			"tag": "smlp37",
+			"patterns": ["What is LOD and LOQ"],
+			"responses": ["LoD is the lowest analyte concentration likely to be reliably distinguished from the LoB and at which detection is feasible. LoQ is the lowest concentration at which the analyte can not only be reliably detected but at which some predefined goals for bias and imprecision are met."]
+
+		},
+		{
+			"tag": "smlp38",
+			"patterns": ["Which are the different performance parameters for the assay method"],
+			"responses": ["The analytical performance of a laboratory assay can be documented by defining it as an analytical sensitivity or detection limit, b the extent of nonspecific binding which is determined by matrix effects associated with the specimen and assay buffers, c specificity for the target analyte as assessed by competitive."]
+
+		},
+		{
+			"tag": "smlp39",
+			"patterns": ["What is the validation method"],
+			"responses": ["Method validation is the process used to confirm that the analytical procedure employed for a specific test is suitable for its intended use. Results from method validation can be used to judge the quality, reliability, and consistency of analytical results it is an integral part of any good analytical practice."]
+
+		},
+		{
+			"tag": "smlp40",
+			"patterns": ["What are the types of validation"],
+			"responses": ["There are 4 main types of validation,Prospective Validation,Concurrent Validation,Retrospective Validation,Revalidation Periodic and After Change"]
+
+		},
+		{
+			"tag": "smlp41",
+			"patterns": ["What is the validation of the analytical procedure"],
+			"responses": ["Validation of an analytical procedure is the process by which it is established, by laboratory studies, that the performance characteristics of the 0 procedure meet the requirements for the intended analytical applications"]
+
+		},
+		{
+			"tag": "smlp42",
+			"patterns": ["What is training in data science"],
+			"responses": ["Data science can be defined as a blend of mathematics, business acumen, tools, algorithms, and machine learning techniques, all of which help us in finding out the hidden insights or patterns from raw data which can be of major use in the formation of big business decisions."]
+
+		},
+		{
+			"tag": "smlp43",
+			"patterns": ["What is model training in data science"],
+			"responses": ["Model training is the phase in the data science development lifecycle where practitioners try to fit the best combination of weights and bias to a machine learning algorithm to minimize a loss function over the prediction range."]
+
+		},
+		{
+			"tag": "smlp44",
+			"patterns": ["What is the training model"],
+			"responses": [" A training model is a dataset that is used to train an ML algorithm. It consists of the sample output data and the corresponding sets of input data that influence the output. The training model is used to run the input data through the algorithm to correlate the processed output against the sample output."]
+
+		},
+		{
+			"tag": "smlp45",
+			"patterns": ["What is ML model training"],
+			"responses": [" The process of training an ML model involves providing an ML algorithm that is, the learning algorithm with training data to learn from. The term ML model refers to the model artifact that is created by the training process. You can use the ML model to get predictions on new data for which you do not know the target."]
+
+		},
+		{
+			"tag": "smlp46",
+			"patterns": ["How do you make a model for data science"],
+			"responses": ["If you feel naive about how to go about the process, here are some essential steps.Data Extraction.Moving on to Data Cleaning.Diving Deep into the Data.Identifying the Critical Features.Exploring the World of Machine Learning.Evaluate & Deploy the Model."]
+
+		},
+		{
+			"tag": "smlp47",
+			"patterns": ["How do I train a python model"],
+			"responses": ["Start With a Data Set. Start with a data set you want to test.Fit the Data Set. What does the data set look like.R2. Remember R2, also known as R squared Bring in the Testing Set. Now we have made a model that is OK, at least when it comes to training data."]
+
+		},
+		{
+			"tag": "smlp48",
+			"patterns": ["What is the best way to train a model"],
+			"responses": ["Step 1 Begin with existing data. Machine learning requires us to have existing data, not the data our application will use when we run it, but data to learn from.Step 2 Analyze data to identify patterns.Step 3 Make predictions."]
+
+		},
+		{
+			"tag": "smlp49",
+			"patterns": ["What are the different ML models"],
+			"responses": ["Amazon ML supports three types of ML models binary classification, multiclass classification, and regression. The type of model you should choose depends on the type of target that you want to predict."]
+
+		},
+		{
+			"tag": "smlp50",
+			"patterns": ["What is the first step of the training model "],
+			"responses": ["Assess training needs The first step in developing a training program is to identify and assess needs. Employee training needs may already be established in the organizations strategic, human resources, or individual development plans."]
+
+		},
+		{
+			"tag": "smlp51",
+			"patterns": ["What are the 5 phases of training"],
+			"responses": ["Training can be viewed as a process comprised of five related stages or activities assessment, motivation, design, delivery, and evaluation."]
+
+		},
+		{
+			"tag": "smlp52",
+			"patterns": ["What are the different types of training methods"],
+			"responses": ["Technology based learning. With the development of technology, computerized training is becoming more prevalent.Simulators.On the job training.Coaching mentoring.Instructor led training.Roleplaying.Films and videos.Case studies."]
+
+		},
+		{
+			"tag": "smlp53",
+			"patterns": ["What is parameter tuning"],
+			"responses": ["Hyperparameter tuning is choosing a set of optimal hyperparameters for a learning algorithm. A hyperparameter is a model argument whose value is set before the learning process begins. The key to machine learning algorithms is hyperparameter tuning."]
+
+		},
+		{
+			"tag": "smlp54",
+			"patterns": ["What is automated hyperparameter tuning"],
+			"responses": ["Increasingly, hyperparameter tuning is done by automated methods that aim to find optimal hyperparameters in less time using an informed search with no manual effort necessary beyond the initial setup."]
+
+		},
+		{
+			"tag": "smlp55",
+			"patterns": ["Which is the best hyperparameter tuning"],
+			"responses": ["Hyperopt. Hyperopt is one of the most popular hyperparameter tuning packages available. Hyperopt allows the user to describe a search space in which the user expects the best results allowing the algorithms in hyperopt to search more efficiently."]
+
+		},
+		{
+			"tag": "smlp56",
+			"patterns": ["What is parameter optimization"],
+			"responses": ["A fancy name for training the selection of parameter values, which are optimal in some desired sense eg. minimize an objective function you choose over a dataset you choose. The parameters are the weights and biases of the network."]
+
+		},
+		{
+			"tag": "smlp57",
+			"patterns": ["How important is Hyperparameter tuning"],
+			"responses": ["Hyperparameter tuning optimization is an essential aspect of the machine learning process. A good choice of hyperparameters can make a model succeed in meeting desired metric value or on the contrary, it can lead to an unending cycle of continuous training and optimization."]
+
+		},
+		{
+			"tag": "smlp58",
+			"patterns": ["Why Hyperparameter tuning is used"],
+			"responses": ["Hyperparameters tuning is crucial as they control the overall behavior of a machine learning model. Every machine learning model will have different hyperparameters that can be set. A hyperparameter is a parameter whose value is set before the learning process begins."]
+
+		},
+		{
+			"tag": "smlp59",
+			"patterns": ["Which dataset is used for Hyperparameter tuning"],
+			"responses": ["Hyperparameter tuning is a final step in the process of applied machine learning before presenting results. You will use the Pima Indian diabetes dataset."]
+
+		},
+		{
+			"tag": "smlp60",
+			"patterns": ["What is the difference between parameter and hyperparameter"],
+			"responses": ["Basically, parameters are the ones that the model uses to make predictions, etc. For example, the weight coefficients in a linear regression model. Hyperparameters are the ones that help with the learning process. For example, the number of clusters in K Means, shrinkage factor in Ridge Regression."]
+
+		},
+		{
+			"tag": "smlp61",
+			"patterns": ["How do you parameter tuning in machine learning"],
+			"responses": ["In general, this process includes Define a model.Define the range of possible values for all hyperparameters.Define a method for sampling hyperparameter values.Define evaluative criteria to judge the model.Define a cross validation method."]
+
+		},
+		{
+			"tag": "smlp62",
+			"patterns": ["What is ML model tuning"],
+			"responses": ["Tuning is the process of maximizing a models performance without overfitting or creating too high of a variance. In machine learning, this is accomplished by selecting appropriate hyperparameters. Hyperparameters can be thought of as the dials or knobs of a machine learning model."]
+
+		},
+		{
+			"tag": "smlp63",
+			"patterns": ["What is the grid search technique"],
+			"responses": ["Grid search is a tuning technique that attempts to compute the optimum values of hyperparameters. It is an exhaustive search that is performed on the specific parameter values of a model. The model is also known as an estimator. Grid search exercises can save us time, effort, and resources."]
+
+		},
+		{
+			"tag": "smlp64",
+			"patterns": ["What is a tuning grid"],
+			"responses": ["A data frame of tuning combinations or a positive integer. The data frame should have columns for each parameter being tuned and rows for tuning parameter candidates."]
+
+		},
+		{
+			"tag": "smlp65",
+			"patterns": ["How do I speed up a grid search"],
+			"responses": ["If using grid search, decrease the number of hyperparameter values you are willing to consider using a coarser grid. This can give potentially large speedups because the total number of combinations scales multiplicatively. The risk is that, if the grid becomes too coarse, you may miss the optimal values."]
+
+		},
+		{
+			"tag": "smlp66",
+			"patterns": ["What is a parameter grid"],
+			"responses": ["The parameter grid to explore, as a dictionary mapping estimator parameters to sequences of allowed values. An empty dict signifies default parameters. A sequence of dict signifies a sequence of grids to search and is useful to avoid exploring parameter combinations that make no sense or have no effect."]
+
+		},
+		{
+			"tag": "smlp67",
+			"patterns": ["Why is grid search used"],
+			"responses": ["Grid search is used to find the optimal hyperparameters of a model which results in the most accurate predictions."]
+
+		},
+		{
+			"tag": "smlp68",
+			"patterns": ["What is CV in grid search"],
+			"responses": ["cv number of cross validation you have to try for each selected set of hyperparameters. verbose you can set it to 1 to get the detailed printout while you fit the data to GridSearchCV."]
+
+		},
+		{
+			"tag": "smlp69",
+			"patterns": ["What is grid search in deep learning"],
+			"responses": ["Grid searching is the process of scanning the data to configure optimal parameters for a given model. Grid Search will build a model on each parameter combination possible. It iterates through every parameter combination and stores a model for each combination."]
+
+
+		},
+		{
+			"tag": "smlp70",
+			"patterns": ["What is grid search Python"],
+			"responses": ["The Grid Search Method considers several hyperparameter combinations and chooses the one that returns a lower error score. This method is especially useful when there are only a few hyperparameters to optimize, although it is outperformed by other weighted random search methods when the ML model grows in complexity."]
+
+
+		},
+		{
+			"tag": "smlp71",
+			"patterns": ["What is grid search cross validation"],
+			"responses": ["Grid Search CV Grid Search cross validation is a technique to select the best of the machine learning model, parameterized by a grid of hyperparameters. Grid Search CV tries all combinations of parameters grid for a model and returns with the best set of parameters having the best performance score."]
+
+		},
+		{
+			"tag": "smlp72",
+			"patterns": ["What is a randomized search"],
+			"responses": ["Random search is a technique where random combinations of the hyperparameters are used to find the best solution for the built model. It is similar to grid search, and yet it has proven to yield better results comparatively."]
+
+		},
+		{
+			"tag": "smlp73",
+			"patterns": ["Is randomized search better than grid search"],
+			"responses": ["Random search is the best parameter search technique when there are fewer number dimensions. While less common in machine learning practice than grid search, random search has been shown to find equal or better values than grid search within fewer function evaluations for certain types of problems."]
+
+		},
+		{
+			"tag": "smlp74",
+			"patterns": ["What is the difference between grid search and the random search"],
+			"responses": ["In Grid Search, the data scientist sets up a grid of hyperparameter values and for each combination, trains a model and scores on the testing data. By contrast, Random Search sets up a grid of hyperparameter values and selects random combinations to train the model and score"]
+
+		},
+		{
+			"tag": "smlp75",
+			"patterns": ["How do you do a random search"],
+			"responses": ["A sampling distribution is defined for every hyperparameter to do a random search. This technique allows us to control the number of attempted hyperparameter combinations. Unlike grid search, where every possible combination is attempted, random search allows us to specify the number of models to train."]
+
+		},
+		{
+			"tag": "smlp76",
+			"patterns": ["When would you use a randomized Search"],
+			"responses": ["RandomizedSearchCV is very useful when we have many parameters to try and the training time is very long. For this example, I use a random forest classifier, so I suppose you already know how this kind of algorithm works."]
+
+		},
+		{
+			"tag": "smlp77",
+			"patterns": ["What are the advantages of grid search"],
+			"responses": ["While this does lead to optimal or near optimal solutions most of the time, one of the advantages of grid search is that they can all be run independently, so if you have sufficient compute capacity you can run them in parallel."]
+
+		},
+		{
+			"tag": "smlp78",
+			"patterns": ["Why is randomized search better than grid search"],
+			"responses": ["Random search is a technique where random combinations of the hyperparameters are used to find the best solution for the built model. It is similar to grid search, and yet it has proven to yield better results comparatively. The drawback of random search is that it yields high variance during computing."]
+
+		},
+		{
+			"tag": "smlp79",
+			"patterns": ["What is the difference between randomized search and grid search"],
+			"responses": ["The only difference between both the approaches is in grid search we define the combinations and do training of the model whereas in RandomizedSearchCV the model selects the combinations randomly."]
+
+		},
+		{
+			"tag": "smlp80",
+			"patterns": ["Is RandomSearchCV faster than GridSearchCV"],
+			"responses": ["Depending on the n iter chosen, RandomSearchCV can be two, three, four times faster than GridSearchCV. However, the higher the n iter chosen, the lower will be the speed of RandomSearchCV and the closer the algorithm will be to GridSearchCV."]
+
+		},
+		{
+			"tag": "smlp81",
+			"patterns": ["What is RandomizedSearchCV"],
+			"responses": ["Randomized search on hyperparameters. RandomizedSearchCV implements a fit and a score method. It also implements score samples, predict proba, decision function, transform and inverse transform if they are implemented in the estimator used."]
+
+		},
+		{
+			"tag": "smlp82",
+			"patterns": ["Why do we train and test data"],
+			"responses": ["Separating data into training and testing sets is an important part of evaluating data mining models.  By using similar data for training and testing, you can minimize the effects of data discrepancies and better understand the characteristics of the model."]
+
+		},
+		{
+			"tag": "smlp83",
+			"patterns": ["How do you split a training and validation set"],
+			"responses": ["The steps are as follows Randomly initialize each model.Train each model on the training set.Evaluate each trained models performance on the validation set.Choose the model with the best validation set performance.Evaluate this chosen model on the test set."]
+
+		},
+		{
+			"tag": "smlp84",
+			"patterns": ["What is the purpose of validation"],
+			"responses": ["Definition and Purpose The purpose of validation, as a generic action, is to establish the compliance of any activity output as compared to inputs of the activity. It is used to provide information and evidence that the transformation of inputs produced the expected and right result."]
+
+		},
+		{
+			"tag": "smlp85",
+			"patterns": ["Why is validation important in machine learning"],
+			"responses": ["When the machine learning model is trained, visual perception model, there are a huge amount of training data sets are used and the main motive of checking and validating the model validation provides an opportunity to machine learning engineers to improve the data quality and quantity."]
+
+		},
+		{
+			"tag": "smlp86",
+			"patterns": ["What is the purpose of a validation set"],
+			"responses": ["A validation set is a set of data used to train artificial intelligence AI to find and optimize the best model to solve a given problem. Validation sets are also known as dev sets. A supervised AI is trained on a corpus of training data."]
+
+		},
+		{
+			"tag": "smlp87",
+			"patterns": ["Why is method validation necessary"],
+			"responses": ["The purpose of validation is to test the suitability of methods, as well as the capacity of the staff and the laboratory.  Method validation is, therefore, an essential component of the measures that a laboratory should establish to be able to produce reliable analytical data."]
+
+		},
+		{
+			"tag": "smlp88",
+			"patterns": ["How is method validation done in a laboratory"],
+			"responses": ["During the process of method validation, analytical specificity is evaluated by assessing the effects of common interfering substances on analyte measurement. The assumption cannot be made that hemolysis or lipemia affect analyte measurement in the same manner for all species."]
+
+		},
+		{
+			"tag": "smlp89",
+			"patterns": ["How do I create a validation master plan"],
+			"responses": ["Also describes how the VMP helps to ensure validation activities are carried out following company protocols, which are designed to evaluate whether equipment, systems, processes, and methods Meet design specifications are suitable for the intended use. Satisfy cGMP regulations."]
+
+		},
+		{
+			"tag": "smlp90",
+			"patterns": ["When should the analytical validation be performed before"],
+			"responses": ["When there are changes in the process for the synthesis of the drug substance. When there are changes in the composition of the finished product. When there is a transfer of methods from one laboratory to another. When there are changes in major pieces of equipment instruments."]
+
+		},
+		{
+			"tag": "smlp91",
+			"patterns": ["How many batches are required for perfect validation"],
+			"responses": ["Three For prospective and concurrent validation, three consecutive successful production batches should be used as a guide, but there may be situations where additional process runs are warranted to prove the consistency of the process. Three batches should be used but depending on the above consideration."]
+
+		},
+		{
+			"tag": "smlp92",
+			"patterns": ["What are the steps included in the training design model"],
+			"responses": ["It is an instructional system design ISD model commonly used by training developers to create result oriented training. The five phases are Analysis, Design, Development, Implementation, and they all are related to the final phase  Evaluation."]
+
+		},
+		{
+			"tag": "smlp93",
+			"patterns": ["What makes a good data science model"],
+			"responses": ["Among those skills a good data scientist should have the Modeling business rules and processes, create a workflow of how data works, and optimize it. Verifying data quality Validate data quality and use tools like natural language processing NLP to get the probability of error."]
+
+		},
+		{
+			"tag": "smlp94",
+			"patterns": ["What is done in data modeling"],
+			"responses": ["Data modeling is a process used to define and analyze data requirements needed to support the business processes within the scope of corresponding information systems in organizations. Data modeling defines not just data elements, but also their structures and the relationships between them."]
+
+		},
+		{
+			"tag": "smlp95",
+			"patterns": ["What are the three types of machine learning"],
+			"responses": ["These are three types of machine learning: supervised learning, unsupervised learning, and reinforcement learning."]
+
+		},
+		{
+			"tag": "smlp96",
+			"patterns": ["Can you train an algorithm"],
+			"responses": ["Classification algorithms undergo supervised training, which means they require labeled true output data in order to measure prediction accuracy. Clustering algorithms can also be used for classification or simply to observe data patterns"]
+
+		},
+		{
+			"tag": "smlp97",
+			"patterns": ["What is a test set in machine learning"],
+			"responses": ["A test set in machine learning is a secondary or tertiary data set that is used to test a machine learning program after it has been trained on an initial training data set."]
+
+		},
+		{
+			"tag": "smlp98",
+			"patterns": ["Why optimize and validate odds"],
+			"responses": ["In general, validation accuracy is higher than test accuracy. This is because the models hyperparameters will have been tuned specifically for the validation dataset."]
+
+		},
+		{
+			"tag": "smlp99",
+			"patterns": ["What is validation testing with example"],
+			"responses": ["Software Testing  Validation Testing The process of evaluating software during the development process or at the end of the development process to determine whether it satisfies specified business requirements. Validation Testing ensures that the product meets the clients needs."]
+
+		},
+		{
+			"tag": "smlp100",
+			"patterns": ["Who prepares master validation"],
+			"responses": ["the Validation Executive The Validation Master Plan VMP shall be prepared by the Validation Executive. The document shall be checked by the heads of all Functional areas."]
+
+		},
+		{
+			"tag": "smlp101",
+			"patterns": ["What is validation protocol"],
+			"responses": ["Validation Protocol is defined as a written plan describing the process to be validated, including production equipment and how validation will be conducted. A Validation Protocol is necessary to define the specific items and activities that will constitute a cleaning validation study."]
+
+		},
+		{
+			"tag": "smlp102",
+			"patterns": ["How many types of validation parameters are there"],
+			"responses": ["Method validations fall into three categories Full, Partial, and Cross Validation Full validation is needed for new methods or when major changes to an existing method affect the scope or critical components. Partial validation is performed on a previously validated method that has undergone minor modification."]
+
+		},
+		{
+			"tag": "smlp103",
+			"patterns": ["What are the five popular algorithms of machine learning"],
+			"responses": ["Here is the list of the 5 most commonly used machine learning algorithms.Linear Regression.Logistic Regression.Decision Tree.Naive Bayes.k nearest neighbor."]
+
+		},
+		{
+			"tag": "smlp104",
+			"patterns": ["What to do after training a model"],
+			"responses": ["Four Steps to Take After Training Your Model Realizing the Value of Machine Learning Deploy the model.Make the model available for predictions.Predict and decide.The next step is to build a production workflow that processes incoming data and gets predictions for new patients.Measure.Iterate."]
+
+		},
+		{
+			"tag": "smlp105",
+			"patterns": ["How do you train to be a deep learning model"],
+			"responses": ["To train a model, the input images must be 8 bit rasters with three bands. The output folder location will store the trained model. The maximum number of epochs for which the model will be trained. A maximum epoch of one means the dataset will be passed forward and backward through the neural network one time."]
+
+		},
+		{
+			"tag": "smlp106",
+			"patterns": ["What model is used for learning"],
+			"responses": ["Naive Bayes  Based on Bayes theorem. Logistic Regression  Linear model for binary classification. SVM  can be used for binary multiclass classifications. Decision Tree  If Else based classifier, more robust to outliers."]
+
+		},
+		{
+			"tag": "smlp107",
+			"patterns": ["What is tuned in a model"],
+			"responses": ["Tuning is usually a trial and error process by which you change some hyperparameters, for example, the number of trees in a tree based algorithm or the value of alpha in a linear algorithm, run the algorithm on the data again, then compare its performance on your validation set in order to determine which set of."]
+
+		},
+		{
+			"tag": "smlp108",
+			"patterns": ["How do I tune my model"],
+			"responses": ["Fine tuning parameters of machine learning models.Step 1 Understand what tuning in the machine learning model is.Step 2 Cover The Basics.Step 3 Find Your Score Metric.step 4 Obtain an Accurate Forecasting Score.Step 5 Diagnose Best Parameter Value Using Validation Curves.Step 6 Use Grid Search To Optimise Hyperparameter Combination."]
+
+		},
+		{
+			"tag": "smlp109",
+			"patterns": ["What is K fold cross validation used for"],
+			"responses": ["Cross validation is a resampling procedure used to evaluate machine learning models on a limited data sample. The procedure has a single parameter called k that refers to the number of groups that a given data sample is to be split into."]
+
+		},
+		{
+			"tag": "smlp110",
+			"patterns": ["What is K in k fold cross validation"],
+			"responses": ["The key configuration parameter for k fold cross validation is k which defines the number of folds in which to split a given dataset."]
+
+		},
+		{
+			"tag": "smlp111",
+			"patterns": ["Does cross validation reduce variance"],
+			"responses": ["This significantly reduces bias as we are using most of the data for fitting, and also significantly reduces variance as most of the data is also being used in the validation set."]
+
+		}
+
+
+
+
+
+
+
+
+
+
+	]
+}
