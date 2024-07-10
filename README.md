@@ -1,1 +1,1 @@
-# AI-ChatBot
+# AI-ChatBot - Minimal human interference in the use of devices is the goal of our world of technology. Chatbots can reach out to broad audience on messaging apps and be more effective than humans. With further development of AI and machine learning, somebody may not be capable of understanding whether he talks to a chatbot or a real-life agent. In this project we extracted text data to create corpus in the form of json file format and created a chatbot for users to answer their queries.
